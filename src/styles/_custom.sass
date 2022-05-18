@@ -7,6 +7,8 @@
   max-width: 50px !important
 .img70
    max-width: 70px !important
+.img80
+   max-width: 80px !important
 .img90
   max-width: 90px !important
 .img120
@@ -23,6 +25,8 @@
   max-width: 350px !important
 .img400
   max-width: 400px !important
+.img420
+  max-width: 420px !important
 .img450
   max-width: 450px !important
 .img600
@@ -153,6 +157,139 @@
       margin: 0 -23px
       width: calc(100% + 46px)
       top: 20px
+.bg_grad-08
+  position: relative
+  img, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 36px
+    left: 0
+    width: 62%
+    height: 30%
+    background-color: #FFF0E1
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      margin: 0 -23px
+      width: calc(100% + 46px)
+      top: 20px
+.bg_grad-09
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 45px
+    left: 0
+    width: 100%
+    height: 84%
+    background-color: #FFF0E1
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      margin: 0 -23px
+      width: calc(100% + 46px)
+      top: 20px
+.bg_grad-10
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 99px
+    left: 0
+    width: 100%
+    height: 74%
+    background-color: #FFE7E4
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      margin: 0 -23px
+      width: calc(100% + 46px)
+      top: 20px
+.bg_grad-11
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 85px
+    left: 0
+    width: 100%
+    height: 61%
+    background-color: #FFE7E4
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px  )
+      height: 84%
+      width: 100%
+      left: 0
+      top: 73px
+.bg_grad-12
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 85px
+    left: 0
+    width: 100%
+    height: 67%
+    background-color: #FFF6E6
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px  )
+      height: 84%
+      width: 100%
+      left: 0
+      top: 73px
+.bg_grad-13
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 40px
+    left: 0
+    width: 100%
+    height: 80%
+    background-color: #FFE7E4
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px  )
+      height: 84%
+      width: 100%
+      left: 0
+      top: 73px
+.bg_grad-14
+  position: relative
+  .row, .col
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 27px
+    left: 0
+    width: 100%
+    height: 80%
+    background-color: #D9D9E9
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px  )
+      height: 84%
+      width: 100%
+      left: 0
+      top: 73px
 
 .bgr
   background-color: #FFC967
@@ -170,7 +307,7 @@
   &_5
     background-color: #FFB6B0
   &_6
-    background-color: #D9D9E9
+    background-color: #E8E8E8
   &_7
     background-color: #FFEDCC
     border-radius: 10px
@@ -212,6 +349,22 @@
   &_15
     background-image: url("../assets/curso/tema2/fondo5.svg")
     background-repeat: no-repeat
+  &_16
+    background-color: #FFF6E6
+    opacity: 0.9
+  &_17
+    background-color: #D9D9E9
+  &_18
+    background-color: $color-acento-contenido
+    border-radius: 10px
+  &_19
+    background-color: #FFE7E4
+  &_20
+    background-color: $color-primario
+    border-radius: 10px
+  &_21
+    background-color: #FFE7E4
+   
 //BORDES//
 .bord
   border: 3px solid
@@ -234,19 +387,36 @@
   color: black
   &_1
     color: white !important
+  &_2
+    color: $color-acento-contenido
+  &_3
+    color: #12263F
+  &_4
+    color: #FF6D60
 
 .w-200px  
   width: 195px
 
 .fuente14
   font-size: 14px
-
+.fuente13
+  font-size: 13px
+.fuente18
+  font-size: 18px
+.fuente30
+  font-size: 30px
 //posicion de contenido en pantalla//
 
 .ml
   margin-left: 30px
   &_1
     margin-left: 35px
+.m_t
+  margin-top: 64px
+  &_1
+    margin-top: 5rem
+  &_2
+    margin-top: 107px
 
 
 .alto
@@ -286,6 +456,9 @@
       top: 0
       left: -14px
       width: 111px
+      margin-top: 70px;
+      margin-bottom: 83px;
+      margin-left: 70%;
   &_5
     top: -31px
     left: 500px 
@@ -321,20 +494,89 @@
     @media screen and ( max-width: 420px  )
       top: 17px
       left: 19px
+  &_10
+    left: 65%
+    bottom: 21px
+  &_11
+    position: absolute
+    top: 0
+    left: 535px
+    width: 149px
+    opacity: 0
+    &:hover
+      opacity: 1
+  &_12
+    position: absolute
+    top: 156px
+    left: 829px
+    width: 149px
+    opacity: 0
+    &:hover
+      opacity: 1
+  &_13
+    position: absolute
+    top: 156px
+    left: 247px
+    width: 149px
+    opacity: 0
+    &:hover
+      opacity: 1
+  &_14
+    position: absolute
+    top: 56px
+    left: 435px
+    width: 567px
+    opacity: 0
+    &:hover
+      opacity: 1
+  &_15
+    position: absolute
+    top: 149px
+    left: 460px
+    width: 567px
+    opacity: 0
+    &:hover
+      opacity: 1
+  &_16
+    position: absolute
+    top: 248px
+    left: 457px
+    width: 567px
+    opacity: 0
+    &:hover
+      opacity: 1
+  &_17
+    z-index: 1
+    right: 31%
+    width: 69% !important
+    opacity: 0.9
+  &_18
+    margin: 0 -3rem
+    background-color: #FFC967
+  &_19
+    top: 50px 
+
     
 
 // ANIMACIONES //
 .tranform
   background-color: #FF6D60
-  cursor: pointer
   &:hover
     background-color: #373660
     h4, p
       color: white !important
-.tranform_1
-  transition: transform .2s;
-  &:hover
-    transform: scale(1.10);
+  &_1
+    transition: transform .2s;
+    &:hover
+      transform: scale(1.10);
+  &_2
+    transform: rotate(180deg);
+  &_3
+    background-color: #FFC967
+    &:hover
+      background-color: #FF6D60
+  
+
 .infografia-torta
   position: relative
   &__img
@@ -344,6 +586,27 @@
       opacity: 0
       &:hover
         opacity: 1
+.tarjetas-up
+  overflow: hidden
+  border-radius: 10px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 10px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -85%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: -25%
+    i:first-child
+      display: none
+    i:last-child
+      display: block
 
 //CLASES SOBRE-ESCRITAS//
 .video iframe
@@ -383,4 +646,43 @@
   align-items: stretch !important
 .slyder-a__tipo-b
   margin-top: -4rem !important
+.tabs-b__tab
+  background-color: #FFF6E6
+.tabs-b__tab--active
+  background-color: rgba(255,255,255,0.5) !important
+.linea-tiempo-e__item__body
+  width: 90%
+.linea-tiempo-e:before
+  left: 10%
+.linea-tiempo-e__item__header
+  width: 10%
+.linea-tiempo-e__item__header h3
+  margin-top: 17px
+  &:hover
+    background-color: $color-acento-contenido
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: $color-secundario !important
+      color: white
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-image: url("../assets/curso/tema3/fondo1.svg")
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #FFF0E1
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #FFF0E1
+
+.tarjeta--azul
+  background-image: url("../assets/curso/tema5/fondo1.svg") !important
+  background-repeat: no-repeat
+  background-size: cover
 

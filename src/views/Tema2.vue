@@ -258,7 +258,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Figura 1
-      span Clasificaciones de los clientes actuales 
+      span <em>Clasificaciones de los clientes actuales</em> 
 
     .row.justify-center.mb-5
       .col-12.col-lg-10

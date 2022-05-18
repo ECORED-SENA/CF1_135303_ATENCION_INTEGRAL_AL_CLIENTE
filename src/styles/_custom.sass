@@ -11,6 +11,8 @@
   max-width: 90px !important
 .img120
   max-width: 120px !important
+.img140
+  max-width: 140px !important
 .img160
   max-width: 160px !important
 .img200
@@ -66,9 +68,6 @@
   background-repeat: no-repeat
   background-color: #FFC664 !important
 
-
-
-
 //FONDOS DE CONTENIDO//
 .bg_grad-01
   position: relative
@@ -89,8 +88,299 @@
       margin: 0 -23px
       width: calc(100% + 46px)
       top: 20px
+.bg_grad-02
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-image: url("../assets/curso/tema2/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and ( max-width: 420px )
+      margin: 0 -23px
+      width: calc(100% + 46px)
+      top: 20px
+.bg_grad-03
+  background-image: url("../assets/curso/tema2/fondo2.svg")
+  background-repeat: no-repeat
+  background-size: cover
+  border-radius: 10px
+  &_1
+    background-image: url("../assets/curso/tema2/fondo2.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-04
+  background-image: url("../assets/curso/tema2/fondo3.svg")
+  background-repeat: no-repeat
+  background-size: cover
+  border-radius: 10px
+  &_1
+    background-image: url("../assets/curso/tema2/fondo3.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-05
+  background-image: url("../assets/curso/tema2/fondo4.svg")
+  background-repeat: no-repeat
+  background-size: cover
+  border-radius: 10px
+  &_1
+    background-image: url("../assets/curso/tema2/fondo4.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-07
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 59px
+    left: 0
+    width: calc( 100% + 6rem )
+    height: 67%
+    background-color: #373660
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      margin: 0 -23px
+      width: calc(100% + 46px)
+      top: 20px
+
+.bgr
+  background-color: #FFC967
+  &_1
+    background-image: url("../assets/curso/tema1/t1-8.png")
+    background-repeat: no-repeat
+  &_2
+    background-color: #FFE1C2
+    border-radius: 10px
+    margin-left: 1px
+    margin-right: 1px
+  &_4
+    background-color: #FFA648
+    border-radius: 10px
+  &_5
+    background-color: #FFB6B0
+  &_6
+    background-color: #D9D9E9
+  &_7
+    background-color: #FFEDCC
+    border-radius: 10px
+  &_8
+    background-color: white
+    opacity: 0.9
+    margin-top: -223px
+    width: 504px
+  &_9
+    background-color: white
+    opacity: 0.9
+    margin-top: -286px
+    width: 504px
+  &_10
+    background-color: white
+    opacity: 0.9
+    margin-top: -381px
+    width: 504px
+  &_11
+    background-color: white
+    opacity: 0.9
+    margin-top: -139px
+    width: 504px
+  &_12
+    background-color: white
+    opacity: 0.9
+    margin-top: -228px
+    width: 504px
+  &_13
+    background-color: white
+    opacity: 0.9
+    margin-top: -364px
+    width: 504px
+  &_14
+    background-color: white
+    border-radius: 10px
+    width: fit-content
+    padding: 10px
+  &_15
+    background-image: url("../assets/curso/tema2/fondo5.svg")
+    background-repeat: no-repeat
+//BORDES//
+.bord
+  border: 3px solid
+  border-color: #FF6D60
+  padding: 0.5rem
+  border-radius: 10px
+  &_1
+    border: 3px solid
+    border-color: #373660
+    padding: 0.5rem
+    border-radius: 10px
+  &_2
+    border: 3px solid
+    border-color: #FFC967
+    padding: 0.5rem
+    border-radius: 10px
+
+    
+.colr
+  color: black
+  &_1
+    color: white !important
+
+.w-200px  
+  width: 195px
+
+.fuente14
+  font-size: 14px
+
+//posicion de contenido en pantalla//
+
+.ml
+  margin-left: 30px
+  &_1
+    margin-left: 35px
+
+
+.alto
+  height: 81px
+
+.posit
+  width: 704px
+  &_1
+    z-index: 1
+    right: 38%
+    width: 64% !important
+    opacity: 0.9
+    @media screen and ( max-width: 420px  )
+      right: 6%
+      width: 88% !important
+  &_2
+    z-index: 0
+    left: 50% !important
+    @media screen and ( max-width: 420px )
+      left: 0 !important
+  &_3
+    z-index: 1
+    right: 47%
+    width: 55% !important
+    opacity: 0.9
+    @media screen and ( max-width: 420px  )
+      right: 6%
+      width: 88% !important
+  &_4
+    top: 0
+    left: 0 
+    width: 56%
+    margin-top: 70px
+    margin-bottom: 83px
+    margin-left: 70%
+    @media screen and ( max-width: 420px  )
+      top: 0
+      left: -14px
+      width: 111px
+  &_5
+    top: -31px
+    left: 500px 
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 17px
+      left: 19px
+  &_6
+    top: 118px
+    left: 90px
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 17px
+      left: 19px
+  &_7
+    top: 229px
+    left: 469px
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 17px
+      left: 19px
+  &_8
+    top: 312px
+    left: 126px
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 17px
+      left: 19px
+  &_9
+    top: 413px
+    left: 429px
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 17px
+      left: 19px
+    
+
+// ANIMACIONES //
+.tranform
+  background-color: #FF6D60
+  cursor: pointer
+  &:hover
+    background-color: #373660
+    h4, p
+      color: white !important
+.tranform_1
+  transition: transform .2s;
+  &:hover
+    transform: scale(1.10);
+.infografia-torta
+  position: relative
+  &__img
+    img
+      position: absolute
+      transition: opacity 0.3s ease-in-out
+      opacity: 0
+      &:hover
+        opacity: 1
+
 //CLASES SOBRE-ESCRITAS//
 .video iframe
   height: 86% !important
   @media screen and (max-width: $bp-max-xs)
     height: 70% !important
+.tabs-a__tab:last-child
+  background-color: #E8E8E8
+.tarjeta.color-acento-botones--borde
+  border: 0
+  background-color: #D9D9E9
+.tabla-a thead
+  background-color: #FFE7E4
+.tabla-b__header
+  background-color: #E8E8E8
+  border-top: 5px solid
+  border-color: #FF6D60
+  padding: 20px
+.tabla-a.color-acento-contenido thead
+  border-top: none
+.tabla-b__header *
+  color: black
+.tarjeta-avatar-b .tarjeta 
+  width: 100%
+  margin-left: -20%
+  padding-left: 10%
+.tarjeta-avatar-b__img 
+    min-width: 28%;
+    max-width: 28%;
+.slyder-a__tipo-a .slyder-a__btn--sigt 
+  right: 0
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  left: 0
+.slyder-a__tipo-a .slyder-a__bullets
+    bottom: 20px
+.horizontal-scroll
+  align-items: stretch !important
+.slyder-a__tipo-b
+  margin-top: -4rem !important
+

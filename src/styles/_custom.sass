@@ -154,8 +154,9 @@
     background-repeat: no-repeat
     background-size: contain
     @media screen and ( max-width: 420px )
-      margin: 0 -23px
-      width: calc(100% + 46px)
+      margin: 0 
+      width: 100%
+      height: 100%
       top: 20px
 .bg_grad-08
   position: relative
@@ -194,7 +195,7 @@
     @media screen and ( max-width: 420px )
       margin: 0 -23px
       width: calc(100% + 46px)
-      top: 20px
+      top: 60px
 .bg_grad-10
   position: relative
   .row
@@ -210,10 +211,12 @@
     background-color: #FFE7E4
     background-repeat: no-repeat
     background-size: contain
+    border-top-right-radius: 100px
     @media screen and ( max-width: 420px )
       margin: 0 -23px
       width: calc(100% + 46px)
       top: 20px
+      height: 96%
 .bg_grad-11
   position: relative
   .row, 
@@ -229,7 +232,7 @@
     background-color: #FFE7E4
     background-repeat: no-repeat
     @media screen and ( max-width: 420px  )
-      height: 84%
+      height: 87%
       width: 100%
       left: 0
       top: 73px
@@ -286,16 +289,19 @@
     background-color: #D9D9E9
     background-repeat: no-repeat
     @media screen and ( max-width: 420px  )
-      height: 84%
+      height: 90%
       width: 100%
       left: 0
       top: 73px
 
 .bgr
-  background-color: #FFC967
+  background-color: #FFC967   
   &_1
     background-image: url("../assets/curso/tema1/t1-8.png")
     background-repeat: no-repeat
+    @media screen and (max-width: 420px)
+      background-image: none
+      
   &_2
     background-color: #FFE1C2
     border-radius: 10px
@@ -316,31 +322,49 @@
     opacity: 0.9
     margin-top: -223px
     width: 504px
+    @media screen and ( max-width: 420px  )
+      margin-top: 0
+      width: 100%
   &_9
     background-color: white
     opacity: 0.9
     margin-top: -286px
     width: 504px
+    @media screen and ( max-width: 420px  )
+      margin-top: 0
+      width: 100%
   &_10
     background-color: white
     opacity: 0.9
     margin-top: -381px
     width: 504px
+    @media screen and ( max-width: 420px  )
+      margin-top: 0
+      width: 100%
   &_11
     background-color: white
     opacity: 0.9
     margin-top: -139px
     width: 504px
+    @media screen and ( max-width: 420px  )
+      margin-top: 0
+      width: 100%
   &_12
     background-color: white
     opacity: 0.9
     margin-top: -228px
     width: 504px
+    @media screen and ( max-width: 420px  )
+      margin-top: 0
+      width: 100%
   &_13
     background-color: white
     opacity: 0.9
     margin-top: -364px
     width: 504px
+    @media screen and ( max-width: 420px  )
+      margin-top: 0
+      width: 100%
   &_14
     background-color: white
     border-radius: 10px
@@ -349,6 +373,9 @@
   &_15
     background-image: url("../assets/curso/tema2/fondo5.svg")
     background-repeat: no-repeat
+    @media screen and ( max-width:420px )
+      background-image: none
+      background-color: #FFE4B3
   &_16
     background-color: #FFF6E6
     opacity: 0.9
@@ -430,8 +457,8 @@
     width: 64% !important
     opacity: 0.9
     @media screen and ( max-width: 420px  )
-      right: 6%
-      width: 88% !important
+      right: 0%
+      width: 100% !important
   &_2
     z-index: 0
     left: 50% !important
@@ -443,8 +470,8 @@
     width: 55% !important
     opacity: 0.9
     @media screen and ( max-width: 420px  )
-      right: 6%
-      width: 88% !important
+      right: 0%
+      width: 100% !important
   &_4
     top: 0
     left: 0 
@@ -454,49 +481,57 @@
     margin-left: 70%
     @media screen and ( max-width: 420px  )
       top: 0
-      left: -14px
-      width: 111px
-      margin-top: 70px;
-      margin-bottom: 83px;
-      margin-left: 70%;
+      left: 0px
+      width: 224px
+      margin-top: 114px;
+      margin-bottom: 74px;
+      margin-left: 0%;
   &_5
     top: -31px
     left: 500px 
     width: 100%
     @media screen and ( max-width: 420px  )
-      top: 17px
-      left: 19px
+      top: -12px
+      left: 111px
+      width: 73%
   &_6
     top: 118px
     left: 90px
     width: 100%
     @media screen and ( max-width: 420px  )
-      top: 17px
+      top: 37px
       left: 19px
+      width: 73%
   &_7
     top: 229px
     left: 469px
     width: 100%
     @media screen and ( max-width: 420px  )
-      top: 17px
+      top: 57px
       left: 19px
+      width: 73%
   &_8
     top: 312px
     left: 126px
     width: 100%
     @media screen and ( max-width: 420px  )
-      top: 17px
+      top: 77px
       left: 19px
+      width: 73%
   &_9
     top: 413px
     left: 429px
     width: 100%
     @media screen and ( max-width: 420px  )
-      top: 17px
+      top: 97px
       left: 19px
+      width: 73%
   &_10
     left: 65%
     bottom: 21px
+    @media screen and ( max-width: 420px  )
+      left: 75%
+      bottom: 21px
   &_11
     position: absolute
     top: 0
@@ -523,39 +558,93 @@
       opacity: 1
   &_14
     position: absolute
-    top: 56px
-    left: 435px
+    top: 50px
+    left: 497px
     width: 567px
     opacity: 0
     &:hover
       opacity: 1
+    @media screen and ( max-width: 420px  )
+      top: 8px
+      left: 150px
+      width: 214px
   &_15
     position: absolute
-    top: 149px
-    left: 460px
+    top: 146px
+    left: 526px
     width: 567px
     opacity: 0
     &:hover
       opacity: 1
+    @media screen and ( max-width: 420px  )
+      top: 39px;
+      left: 159px;
+      width: 209px;
   &_16
     position: absolute
-    top: 248px
-    left: 457px
+    top: 257px
+    left: 509px
     width: 567px
     opacity: 0
     &:hover
       opacity: 1
+    @media screen and ( max-width: 420px  )
+      top: 77px;
+      left: 153px;
+      width: 214px;
   &_17
     z-index: 1
     right: 31%
     width: 69% !important
     opacity: 0.9
+    @media screen and ( max-width: 420px  )
+      width: 100% !important
+      right: 0
   &_18
     margin: 0 -3rem
     background-color: #FFC967
   &_19
-    top: 50px 
-
+    top: 50px
+  &_20
+    top: -31px
+    left: 500px 
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: -45px
+      left: 79px
+      width: 82%
+  &_21
+    top: -31px
+    left: 500px 
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 79px
+      left: 91px
+      width: 79%
+  &_22
+    top: -31px
+    left: 500px 
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 140px
+      left: 85px
+      width: 81%
+  &_23
+    top: -31px
+    left: 500px 
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 218px
+      left: 59px
+      width: 87%
+  &_24
+    top: -31px
+    left: 500px 
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 277px
+      left: 65px
+      width: 87%
     
 
 // ANIMACIONES //
@@ -669,6 +758,10 @@
   .col
     .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
       background-image: url("../assets/curso/tema3/fondo1.svg")
+      background-repeat: no-repeat
+      @media screen and ( max-width: 420px  )
+        background-image: none
+        background-color: #FFE1C2
 
 /// non selected
 .linea-tiempo-d__item.row
@@ -685,4 +778,7 @@
   background-image: url("../assets/curso/tema5/fondo1.svg") !important
   background-repeat: no-repeat
   background-size: cover
+.linea-tiempo-d__item__content__title 
+  @media screen and ( max-width: 420px  )
+    height: 100px
 

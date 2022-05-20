@@ -164,18 +164,19 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Carlzon, J. (1 de 10 de 1996). El Momento de la Verdad',
+      referencia:
+        'Carlzon, J. (1 de 10 de 1996). <em>El Momento de la Verdad</em>',
       link: 'https://pocketbook4you.com/es/read/moments-of-truth',
     },
     {
       referencia:
-        'Da Silva, D. (2020, 4 de agosto). Los 11 tipos de clientes y sus características: todo lo que necesitas saber para mejorar la relación con tus clientes. Zendesk',
+        'Da Silva, D. (2020, 4 de agosto). <em>Los 11 tipos de clientes y sus características: todo lo que necesitas saber para mejorar la relación con tus clientes.</em> Zendesk. ',
       link:
         'https://www.zendesk.com.mx/blog/tipos-de-clientes-caracteristicas/',
     },
     {
       referencia:
-        'López, MJ. (marzo de 2021). Inclusión laboral: Los 7 mitos más comunes sobre los trabajadores con discapacidad.',
+        'López, MJ. (marzo de 2021). <em>Inclusión laboral: Los 7 mitos más comunes sobre los trabajadores con discapacidad.</em>',
       link:
         'https://www.fundacioncontrabajo.cl/blog/cultura-inclusiva/7-mitos-inclusion-laboral/',
     },
@@ -257,7 +258,7 @@ export default {
       texto:
         'Clark, H. (2020). Resumen del informe de seguimiento de la educación en el mundo. Inclusión y Educación, todos sin excepción.',
       tipo: 'Informe',
-      link: '/downloads/GEMR_2020-Summary-ES-v8.pdf',
+      descarga: '/downloads/GEMR_2020-Summary-ES-v8.pdf',
     },
     {
       texto:
@@ -382,7 +383,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',

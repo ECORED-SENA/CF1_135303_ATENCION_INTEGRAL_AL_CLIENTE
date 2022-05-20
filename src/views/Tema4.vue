@@ -8,7 +8,7 @@
       h1 Servicio al cliente
 
     .row.mb-5
-      .col-12.col-lg-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         figure.justify-center
           img(src='@/assets/curso/tema4/t4-1.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8
@@ -18,7 +18,7 @@
     p.mb-5 Para prestar un adecuado proceso de servicio en atención al cliente, las empresas deben trabajar en:
 
     .row.mb-5
-      .col-12.col-lg-6
+      .col-12.col-lg-6.mb-3.mb-lg-0
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta.colr_3
@@ -60,11 +60,11 @@
       h2 4.1 Prestación del servicio al cliente
     
     .row.mb-5
-      .col-12.col-lg-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         figure.justify-center
           img(src='@/assets/curso/tema4/t4-3.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8
-        p El servicio al cliente está relacionado con todos y cada uno de los procesos implementados durante la prestación de un servicio o la comercialización de un producto, se denomina también servicio de atención al cliente, es un instrumento del marketing que se encarga de generar contacto con los clientes, implementando el uso de diferentes canales que permiten generar relación con el cliente antes, durante y después de la compra o la prestación del servicio. 
+        p El servicio al cliente está relacionado con todos y cada uno de los procesos implementados durante la prestación de un servicio o la comercialización de un producto, se denomina también servicio de atención al cliente, es un instrumento del <em>marketing</em> que se encarga de generar contacto con los clientes, implementando el uso de diferentes canales que permiten generar relación con el cliente antes, durante y después de la compra o la prestación del servicio. 
         p El servicio al cliente se enmarca como la estrategia que implementan las empresas en busca de la satisfacción del cliente, se diferencia con atención al cliente ya que esta es la acción que se aplica en el día a día de la estrategia de servicio al cliente y en esta acción los colaboradores son quienes juegan un rol de gran importancia.
 
     .titulo-sexto.color-acento-contenido
@@ -118,12 +118,12 @@
           figure.mb-3
             img(src='@/assets/curso/tema4/t4-14.png' alt='AvatarTop')
           .row  
-            .col-12.col-lg-4
+            .col-12.col-lg-4.mb-3.mb-lg-0
               .bgr_19.p-3.h-100
                 figure.justify-center.mb-3
                   img.img80(src='@/assets/curso/tema4/t4-16.svg' alt='AvatarTop')
                 h4.text-center Solicitud de Producto	
-            .col-12.col-lg-4
+            .col-12.col-lg-4.mb-3.mb-lg-0
               .bgr_19.p-3.h-100
                 figure.justify-center.mb-3
                   img.img80(src='@/assets/curso/tema4/t4-17.svg' alt='AvatarTop')
@@ -139,12 +139,12 @@
           figure.mb-3
             img(src='@/assets/curso/tema4/t4-15.png' alt='AvatarTop')
           .row  
-            .col-12.col-lg-4
+            .col-12.col-lg-4.mb-3.mb-lg-0
               .bgr_19.p-3.h-100
                 figure.justify-center.mb-3
                   img.img80(src='@/assets/curso/tema4/t4-19.svg' alt='AvatarTop')
                 h4.text-center Producto no procesado	
-            .col-12.col-lg-4
+            .col-12.col-lg-4.mb-3.mb-lg-0
               .bgr_19.p-3.h-100
                 figure.justify-center.mb-3
                   img.img80(src='@/assets/curso/tema4/t4-20.svg' alt='AvatarTop')
@@ -155,7 +155,7 @@
                   img.img80(src='@/assets/curso/tema4/t4-21.svg' alt='AvatarTop')
                 h4.text-center Producto no entregado
     
-    p.mb-3 Existe un documento llamado <b>Protocolos del Servicio</b> donde las organizaciones tienen establecidos la prestación del servicio al cliente, en él se registran las actuaciones de los empleados o colaboradores en lo referente al proceso de atención o comercialización.
+    p.mb-3 Existe un documento llamado <b>protocolos del servicio</b> donde las organizaciones tienen establecidos la prestación del servicio al cliente, en él se registran las actuaciones de los empleados o colaboradores en lo referente al proceso de atención o comercialización.
     p.mb-3 Los protocolos son las guías u orientaciones que describen detalladamente el proceso o la forma en que un colaborador debe actuar con el cliente al momento de realizar contacto, dicho protocolo se enmarca por los criterios y la visión de la organización respecto al buen servicio al cliente. 
     p.mb-5 Un protocolo de servicio al cliente contiene información como:
 
@@ -244,7 +244,7 @@
       h2 4.2 Triángulo del servicio
 
     .row.mb-5
-      .col-12.col-lg-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         figure.justify-center
           img(src='@/assets/curso/tema4/t4-30.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8
@@ -321,35 +321,35 @@
         .col-12.col-lg-3
           figure
             img(src='@/assets/curso/tema4/t4-33.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-6.p-5.mt-5
+        .col-12.col-lg-6.p-5.mt-0.mt-lg-5
           p.fuente30 ¿Cómo comercializar con el 
-            span.colr_4 triángulo de marketing 
+            span.colr_4 triángulo de <em>marketing</em>  
             | de servicios?
-          p Existen 3 tipos de marketing que se dan dentro del triángulo de servicios:
+          p Existen 3 tipos de <em>marketing</em>  que se dan dentro del triángulo de servicios:
     
     .row.mb-5
-      .col-12.col-lg-2
+      .col-12.col-lg-2.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema4/t4-34.svg', alt='Texto que describa la imagen')
+          img.img200(src='@/assets/curso/tema4/t4-34.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-10
-        h4 Marketing interno en el triángulo de servicios: 
-        p El <em>marketing</em> holístico es el más utilizado cuando el marketing interno está en marcha. Una empresa de publicidad siempre intenta mantener motivados a sus propios empleados. Les ofrece un montón de fiestas y salidas para que estén de buen humor. Y tienen que estar de buen humor porque el resto del tiempo están utilizando sus cerebros creativos para dar el mejor servicio a sus clientes.
+        h4 <em>Marketing</em> interno en el triángulo de servicios: 
+        p El <em>marketing</em> holístico es el más utilizado cuando el <em>marketing</em>  interno está en marcha. Una empresa de publicidad siempre intenta mantener motivados a sus propios empleados. Les ofrece un montón de fiestas y salidas para que estén de buen humor. Y tienen que estar de buen humor porque el resto del tiempo están utilizando sus cerebros creativos para dar el mejor servicio a sus clientes.
         P Además, estas mismas empresas de publicidad capacitan a sus empleados para que tomen las decisiones correctas frente a los clientes. Este empoderamiento contribuye en gran medida a crear motivación y confianza.
-        P Y en eso consiste el marketing interno basado en el triángulo del servicio. Crear confianza y motivación en sus empleados, para que construyan excelentes relaciones con los clientes finales y la empresa obtenga el dinero.
+        P Y en eso consiste el <em>marketing</em> interno basado en el triángulo del servicio. Crear confianza y motivación en sus empleados, para que construyan excelentes relaciones con los clientes finales y la empresa obtenga el dinero.
     .row.mb-5
-      .col-12.col-lg-2
+      .col-12.col-lg-2.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema4/t4-35.svg', alt='Texto que describa la imagen')
+          img.img200(src='@/assets/curso/tema4/t4-35.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-10
-        h4 Marketing externo: 
-        p El <em>marketing</em> de la empresa hacia los clientes. Este es el tipo de marketing más común que, como clientes, encontramos en el mercado. Los distintos tipos de marketing de servicios pueden ser la publicidad, las promociones de ventas, las relaciones públicas, el marketing directo o, de forma más destacada, el marketing por Internet en la época actual.
+        h4 <em>Marketing</em>  externo: 
+        p El <em>marketing</em> de la empresa hacia los clientes. Este es el tipo de <em>marketing</em> más común que, como clientes, encontramos en el mercado. Los distintos tipos de <em>marketing</em> de servicios pueden ser la publicidad, las promociones de ventas, las relaciones públicas, el <em>marketing</em> directo o, de forma más destacada, el <em>marketing</em> por Internet en la época actual.
     .row.mb-5
-      .col-12.col-lg-2
+      .col-12.col-lg-2.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema4/t4-36.svg', alt='Texto que describa la imagen')
+          img.img200(src='@/assets/curso/tema4/t4-36.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-10
-        h4 Marketing interactivo: 
-        p El marketing que tiene lugar en una tienda minorista, en un restaurante, en un centro comercial, en un banco o en cualquier formato en el que el cliente entre en contacto con el empleado, se conoce como marketing interactivo. Este marketing dentro del triángulo de servicios se produce entre los clientes y los empleados.
+        h4 <em>Marketing</em> interactivo: 
+        p El <em>marketing</em> que tiene lugar en una tienda minorista, en un restaurante, en un centro comercial, en un banco o en cualquier formato en el que el cliente entre en contacto con el empleado, se conoce como <em>marketing</em> interactivo. Este <em>marketing</em> dentro del triángulo de servicios se produce entre los clientes y los empleados.
         P El <em>marketing</em> interactivo es también una forma muy eficaz de influir en los clientes. Se utiliza sobre todo para ayudar a los clientes a tomar una decisión de compra. Si un ejecutivo de una tienda ha recibido órdenes de que tiene que liquidar las existencias de Samsung, sólo le dirá las cosas positivas de Samsung e intentará convertir su decisión en la compra de Samsung.
         p Las distintas formas de <em>marketing</em> interactivo incluyen la venta personal, la atención al cliente y la interacción con los clientes en las redes sociales u otras plataformas interactivas de este tipo.
 
@@ -380,7 +380,7 @@
               p.mb-0.text-bold Canales de atención al cliente
               p.m-0.text-small Medios de atención disponibles para que los tiendan puedan canalizar sus preguntas, quejas, o cualquier interacción que requieran sobre un producto o servicio.   
             .col-sm-auto.p-lg-4
-              a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/Canales_atención_cliente.pdf')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-file-download
     
@@ -421,43 +421,43 @@
     
     p.mb-5 Existen diferentes tipos de momentos de verdad, revíselos a continuación:
 
-    .row
+    .row.mb-5
       .col-md-4.col-lg-4.col-xl.mb-4.mb-xl-0(data-aos="fade-up")
         .tarjeta-numerada.color-acento-contenido.px-5.py-3.h-100
           .tarjeta-numerada__numero.posit_19
             .h2 1
-          P.text-bold Momento de la verdad inferior a cero:
+          P.text-bold Momento de la verdad inferior a cero
           p.mb-0 Se produce un evento que inspira al cliente a pensar en realizar una compra.
       .col-md-4.col-lg-4.col-xl.mb-4.mb-xl-0(data-aos="fade-down")
         .tarjeta-numerada.color-acento-contenido.px-5.py-4.h-100
           .tarjeta-numerada__numero.posit_19
             .h2 2
-          P.text-bold Momento cero de la verdad:
+          P.text-bold Momento cero de la verdad
           p.mb-0 El cliente comienza a investigar un producto.
       .col-md-4.col-lg-4.col-xl.mb-4.mb-xl-0(data-aos="fade-up")
         .tarjeta-numerada.color-acento-contenido.px-5.py-5.h-100
           .tarjeta-numerada__numero.posit_19
             .h2 3
-          P.text-bold Primer momento de la verdad: 
+          P.text-bold Primer momento de la verdad 
           p.mb-0 El cliente está mirando un producto.
     .row.mb-5
       .col-md-4.col-lg-4.col-xl.mb-4.mb-xl-0(data-aos="fade-right")
         .tarjeta-numerada.color-acento-contenido.px-5.py-5.h-100
           .tarjeta-numerada__numero.posit_19
             .h2 4
-          P.text-bold Segundo momento de la verdad: 
+          P.text-bold Segundo momento de la verdad 
           p.mb-0 El cliente compra el producto.
       .col-md-4.col-lg-4.col-xl.mb-4.mb-xl-0(data-aos="fade-left")
         .tarjeta-numerada.color-acento-contenido.px-5.py-3.h-100
           .tarjeta-numerada__numero.posit_19
             .h2 5
-          P.text-bold Momento intermedio de la verdad: 
+          P.text-bold Momento intermedio de la verdad 
           p.mb-0 El periodo de tiempo que transcurre desde que el cliente compra un producto hasta que lo recibe. A veces se denomina Momento de la Verdad Absoluto. 
       .col-md-4.col-lg-4.col-xl.mb-4.mb-xl-0(data-aos="fade-right")
         .tarjeta-numerada.color-acento-contenido.px-5.py-5.h-100
           .tarjeta-numerada__numero.posit_19
             .h2 6
-          P.text-bold Tercer momento de la verdad: 
+          P.text-bold Tercer momento de la verdad 
           p.mb-0 El cliente da su opinión sobre el producto.
 
     

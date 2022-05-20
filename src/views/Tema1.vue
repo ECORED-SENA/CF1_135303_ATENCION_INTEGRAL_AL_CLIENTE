@@ -7,7 +7,7 @@
         span 1
       h1 Información
     
-    p La información es un tema de alto interés en el contexto empresarial, ya que es la base para tomar decisiones. Sin embargo, se debe mencionar primero el concepto de “datos” porque estos son los que posibilitan la existencia de la información.
+    p La información es un tema de alto interés en el contexto empresarial, ya que es la base para tomar decisiones. Sin embargo, se debe mencionar primero el concepto de <b>“datos”</b> porque estos son los que posibilitan la existencia de la información.
     p.mb-5 Los datos son números, cifras, incluso palabras, que están almacenados en algún repositorio. En términos técnicos, son la representación de una variable cuantitativa (números) o cualitativa (cualidades o características). Teniendo presente lo referenciado, se puede afirmar que la información es un conjunto de datos con contexto o significado. A modo de ejemplo, se tiene los siguientes casos:
 
     .titulo-sexto.color-acento-contenido.mb-5
@@ -43,7 +43,7 @@
       .col-12.col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__texto.p-4.posit_1
-            p En el contexto de la Atención al Cliente la información es vital, dado que es lo que motiva la interacción y el interés entre:
+            p En el contexto de la atención al cliente la información es vital, dado que es lo que motiva la interacción y el interés entre:
             br
             br
             span <b>Emisor</b> - quien emite el mensaje comunicacional, generalmente, es el Agente de Servicio
@@ -95,21 +95,23 @@
           .col-12.col-lg-9    
             h4 Información externa
             p.mb-0 Es un tipo de información que ha sido creada para ser divulgada y consultada por personas/entes por fuera de la organización/entidad que la produjo. No obstante, quién construye la información define cuál debe ser su uso.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Información Interna")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Información interna")
         .row.align-items-center.p-4
           .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
             figure.justify-center
               img.img140(src='@/assets/curso/tema1/t1-7.svg', alt='Texto que describa la imagen')
           .col-12.col-lg-9    
-            h4 Información Interna
+            h4 Información interna
             p.mb-0 Es aquella que es utilizada por un grupo específico de personas, usualmente pertenecientes a una misma empresa. Se caracteriza porque suele ser de interés solo por parte de un determinado conjunto de personas.
     
     .row
-      .col-12.col-lg-6.bgr.p-5
-        p La mala aplicación de los tipos de información puede llevar a las empresas a la desinformación a nivel digital; conocida como fake news (noticias falsas), son un riesgo latente para las organizaciones que generan y consumen información de forma constante.
+      .col-12.col-lg-6.bgr.p-4.p-lg-5
+        p La mala aplicación de los tipos de información puede llevar a las empresas a la desinformación a nivel digital; conocida como <em>fake news</em> (noticias falsas), son un riesgo latente para las organizaciones que generan y consumen información de forma constante.
         p Muchas empresas implementan <b>políticas de buenas prácticas de sistemas de gestión</b>. Incluso, procesos de gestión documental para que la información que se origina en la empresa sea producida, usada y custodiada (guardada) bajo parámetros de calidad y confiabilidad.
       .col-12.col-lg-6.bgr_1
-
+        figure
+          img.d-flex.d-lg-none(src='@/assets/curso/tema1/t1-8.png', alt='Texto que describa la imagen')
+     
 
 
 

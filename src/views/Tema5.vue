@@ -24,13 +24,13 @@
       span <em>Definición de Sistema de Gestión de la Seguridad y Salud en el Trabajo</em>
 
     .bg_grad-14.mb-5
-      .row.justify-center
+      .row.justify-center.p-3.p-lg-0
         .col-12.col-lg-4
           figure
             img(src='@/assets/curso/tema5/t5-1.svg', alt='Texto que describa la imagen')
         .col-12.col-lg-6.m_t
-          h3 Sistema de Gestión de la Seguridad y Salud en el Trabajo SG-SST: 
-          p.mb-0 Este Sistema consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua y que incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y salud en el trabajo
+          h3 Sistema de Gestión de la Seguridad y Salud en el Trabajo SG-SST 
+          p.mb-0 Este Sistema consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua y que incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y salud en el trabajo.
     .row.mb-5  
       .col-12.col-lg-12
         div.bgr_6.my-3.d-flex
@@ -96,7 +96,7 @@
       h2 5.2 Manejo y control SST
     
     .row.mb-5
-      .col-12.col-lg-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         figure.justify-center
           img(src='@/assets/curso/tema5/t5-3.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8

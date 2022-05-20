@@ -7,7 +7,7 @@
         span 2
       h1 Cliente
     
-    p.mb-5 Observe en el siguiente video cómo se define un cliente.
+    p.mb-3.mb-lg-5 Observe en el siguiente video cómo se define un cliente.
 
     .bg_grad-01
       .row.justify-center.pt-5.pb-5
@@ -16,7 +16,7 @@
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p.mb-5 De acuerdo con lo anterior, se podrían resumir las expectativas mínimas que tienen los clientes con una empresa en la siguiente figura:
+    p.mb-3.mb-lg-5 De acuerdo con lo anterior, se podrían resumir las expectativas mínimas que tienen los clientes con una empresa en la siguiente figura:
 
     .row
       .col-12.col-lg-4.mb-3.h-100(data-aos="zoom-in")
@@ -70,7 +70,7 @@
 
     SlyderD.mb-5(:datos="datosSlyder")
 
-    p.mb-5 Seguramente algunos ejemplos nos ayudarán a comprender y diferenciar mejor estos conceptos, revíselos a continuación.
+    p.mb-3.mb-lg-5 Seguramente algunos ejemplos nos ayudarán a comprender y diferenciar mejor estos conceptos, revíselos a continuación.
 
     .bg_grad-01
       .row.justify-center.pt-5.pb-5
@@ -80,12 +80,12 @@
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-5
-      .col-12.col-lg-4(data-aos="fade-right")
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/t2-11.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8.mt-3(data-aos="fade-left")
         p Hay un interrogante que es frecuente cuando se están analizando a los clientes, el cual es: <b>¿las necesidades de los clientes ya están creadas o se deben crear?</b>, la respuesta es simple: las necesidades ya existen; por esto, las empresas crean o comercializan bienes o servicios, para satisfacer las necesidades de los clientes de la mejor posible.
-        p Para dar mayor estructura a la premisa anterior, hacia 1943 Abraham Maslow, en su libro: Teoría de la Motivación Humana, formuló uno de los aportes más relevantes para la historia asociado al comportamiento humano, la <b>pirámide de Maslow.</b> En ella se establece que todas las personas tienen diferentes niveles de necesidades y en la medida en que las más básicas se van cubriendo el ser humano propenderá por ir avanzando en la pirámide y alcanzar las siguientes. Para mayor entendimiento, se detalla a continuación la clasificación de las necesidades que se identifican en la pirámide de Maslow.
+        p.mb-0 Para dar mayor estructura a la premisa anterior, hacia 1943 Abraham Maslow, en su libro: Teoría de la Motivación Humana, formuló uno de los aportes más relevantes para la historia asociado al comportamiento humano, la <b>pirámide de Maslow.</b> En ella se establece que todas las personas tienen diferentes niveles de necesidades y en la medida en que las más básicas se van cubriendo el ser humano propenderá por ir avanzando en la pirámide y alcanzar las siguientes. Para mayor entendimiento, se detalla a continuación la clasificación de las necesidades que se identifican en la pirámide de Maslow.
     
   
     .bg_grad-02
@@ -95,11 +95,16 @@
             figure
               img.posit_4(src="@/assets/curso/tema2/t2-22.svg" alt="Adornos flotantes")
               .infografia-torta__img(@mouseover="mostrarIndicador = false")
-                img.posit_5(src="@/assets/curso/tema2/t2-13.svg")
-                img.posit_6(src="@/assets/curso/tema2/t2-14.svg")
-                img.posit_7(src="@/assets/curso/tema2/t2-15.svg")
-                img.posit_8(src="@/assets/curso/tema2/t2-16.svg")
-                img.posit_9(src="@/assets/curso/tema2/t2-17.svg")
+                img.posit_5.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-13.svg")
+                img.posit_20.d-flex.d-lg-none(src="@/assets/curso/tema2/t2-13-1.svg")
+                img.posit_6.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-14.svg")
+                img.posit_21.d-flex.d-lg-none(src="@/assets/curso/tema2/t2-14-1.svg")
+                img.posit_7.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-15.svg")
+                img.posit_22.d-flex.d-lg-none(src="@/assets/curso/tema2/t2-15-1.svg")
+                img.posit_8.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-16.svg")
+                img.posit_23.d-flex.d-lg-none(src="@/assets/curso/tema2/t2-16-1.svg")
+                img.posit_9.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-17.svg")
+                img.posit_24.d-flex.d-lg-none(src="@/assets/curso/tema2/t2-17-1.svg")
                 .indicador--hover(v-if="mostrarIndicador" style=" top: 19% ")
             
           
@@ -147,14 +152,14 @@
     p.mb-5 Para un Agente de Atención al Cliente es importante identificar en qué clasificación está un cliente, dado que cada empresa tiene establecida su clasificación y tipología, según su visión corporativa. Por lo tanto, no hay un estándar sobre el criterio que prevalece para realizar la clasificación de un cliente. En el siguiente esquema se muestra la clasificación que se abordará en este componente.
 
     .row.mb-5
-      .col-12.col-lg-6
+      .col-12.col-lg-6.mb-3
         SlyderA
           .row
             .col
               div.bgr_7.p-5
                 img.mb-3.img70(src='@/assets/curso/tema2/t2-23.svg' alt='AvatarTop')
                 h4 Clientes según su alcance
-                p El alcance se  define como la cercanía y nivel de relación que tiene la empresa con ellos. En este sentido, según su alcance, pueden ser: Internos o Externos.
+                p El alcance se  define como la cercanía y nivel de relación que tiene la empresa con ellos. En este sentido, según su alcance, pueden ser: internos o externos.
                 div
                   figure
                     img(src='@/assets/curso/tema2/t2-25.png', alt='Texto que describa la imagen')
@@ -186,7 +191,7 @@
                 div.bgr_10.p-4
                   h4 Ejemplo
                   p.fuente14 <b>Con este ejemplo se clarifican mejor estos conceptos:</b>
-                  p.fuente14 la empresa <b>“El Buen Vivir S.A.S.”</b> es una hostería dedicada a prestar servicios de alojamiento y es propiedad de la Familia Jaramillo Rojas, actualmente cuenta con 10 empleados y el fin de semana pasada recibió 30 huéspedes. 
+                  p.fuente14 La empresa <b>“El Buen Vivir S.A.S.”</b> es una hostería dedicada a prestar servicios de alojamiento y es propiedad de la Familia Jaramillo Rojas, actualmente cuenta con 10 empleados y el fin de semana pasada recibió 30 huéspedes. 
                   .bord
                     p.fuente14 Para esta situación se puede afirmar que:
                       ol.lista-ol--cuadro
@@ -267,14 +272,14 @@
 
     p.mb-5 Veamos entonces, en la siguiente infografía, los detalles de esta nueva clasificación del cliente ya adquirido, es decir, que ha hecho una compra alguna vez en nuestra empresa.
     
-    .tarjeta.p-4(data-aos="zoom-out")
+    .tarjeta.p-lg-4(data-aos="zoom-out")
       SlyderA(tipo="b")
-        .row.p-5.bg_grad-03.h-100.mx-1
+        .row.p-3.p-lg-5.bg_grad-03.h-100.mx-1
           .col-md-5
             div 
               img.img70.mb-3(src='@/assets/curso/tema2/t2-44.svg', alt='Texto que describa la imagen')
               h4.bgr_14 Clientes según su vigencia
-              p La vigencia implica identificar los clientes que generan ingresos (entradas de dinero a la compañía), en este sentido se identifican dos tipos de clientes, loa activos y los inactivos.
+              p La vigencia implica identificar los clientes que generan ingresos (entradas de dinero a la compañía), en este sentido se identifican dos tipos de clientes, los activos y los inactivos.
           .col-md-7.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/tema2/t2-32.png', alt='Texto que describa la imagen')
@@ -292,7 +297,7 @@
             div 
               img.img70.mb-3(src='@/assets/curso/tema2/t2-44.svg', alt='Texto que describa la imagen')
               h4 Clientes inactivos
-              p son aquellos que realizaron compras hace bastante tiempo y por tanto, ya no tienen relación comercial con la empresa, por lo que se infiere que están adquiriendo los productos con la competencia o que dejaron de utilizar el bien/ servicio. 
+              p Son aquellos que realizaron compras hace bastante tiempo y por tanto, ya no tienen relación comercial con la empresa, por lo que se infiere que están adquiriendo los productos con la competencia o que dejaron de utilizar el bien/ servicio. 
           .col-md-7.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/tema2/t2-34.png', alt='Texto que describa la imagen')
@@ -321,7 +326,7 @@
             div 
               img.img70.mb-3(src='@/assets/curso/tema2/t2-44.svg', alt='Texto que describa la imagen')
               h4 Alto volumen
-              p Son aquellos que están por encima del promedio, los clientes con compra promedio son los que se encuentren en los estándares medios de adquisición.
+              p Son aquellos que están por encima del promedio, los clientes con <b>compra promedio</b> son los que se encuentren en los estándares medios de adquisición.
           .col-md-7.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/tema2/t2-37.png', alt='Texto que describa la imagen')
@@ -465,10 +470,10 @@
 
     h4.mb-5 Manejo del cliente, según su tipo
 
-    SlyderF.mb-5(columnas="col-lg-12 col-xl-12")(data-aos="zoom-in-down")
-      .bgr_15.h-100.p-5
+    SlyderF.mb-5.p-0(columnas="col-lg-12 col-xl-12")(data-aos="zoom-in-down")
+      .bgr_15.h-100.p-3.p-lg-5
         img.img450(src='@/assets/curso/tema2/t2-57.svg' alt='AvatarTop')
-        .p-5
+        .p-3.p-lg-5
           h4 Cliente informado
           ul.lista-ul--color
             li 
@@ -477,9 +482,9 @@
             li 
               i.far.fa-check-square
               p Se debe mantener un <b>diálogo basado en los argumentos</b> y con la mayor cantidad de datos posible para no tener imprecisiones o cometer errores con el cliente.
-      .bgr_15.h-100.p-5
+      .bgr_15.h-100.p-3.p-lg-5
         img.img450(src='@/assets/curso/tema2/t2-58.svg' alt='AvatarTop')
-        .p-5
+        .p-3.p-lg-5
           h4 Cliente polémico
           ul.lista-ul--color
             li 
@@ -488,9 +493,9 @@
             li 
               i.far.fa-check-square
               | Mostrar una actitud amable, calmada e interesada
-      .bgr_15.h-100.p-5
+      .bgr_15.h-100.p-3.p-lg-5
         img.img450(src='@/assets/curso/tema2/t2-59.svg' alt='AvatarTop')
-        .p-5
+        .p-3.p-lg-5
           h4 Cliente minucioso
           ul.lista-ul--color
             li 
@@ -502,9 +507,9 @@
             li 
               i.far.fa-check-square
               p <b>Suministrar respuestas claras</b> y con foco en el objetivo, es decir, dar respuestas precisas.
-      .bgr_15.h-100.p-5
+      .bgr_15.h-100.p-3.p-lg-5
         img.img450(src='@/assets/curso/tema2/t2-60.svg' alt='AvatarTop')
-        .p-4
+        .p-3.p-lg-4
           h4 Cliente desconfiado
           ul.lista-ul--color
             li 
@@ -519,9 +524,9 @@
             li 
               i.far.fa-check-square
               p <b>Darle la razón al cliente siempre que la tenga</b>, sin dejarse dominar, ya que esto también podrá generar desconfianza.
-      .bgr_15.h-100.p-5
+      .bgr_15.h-100.p-3.p-lg-5
         img.img450(src='@/assets/curso/tema2/t2-61.svg' alt='AvatarTop')
-        .p-5
+        .p-3.p-lg-5
           h4 Cliente hablador
           ul.lista-ul--color
             li 
@@ -533,9 +538,9 @@
             li 
               i.far.fa-check-square
               p Tercero, se debe siempre encaminar la conversación sobre el objetivo de la interacción, por tanto, se deben realizar preguntas enfocadas en la obtención de las respuestas necesarias, <b>manteniendo el liderazgo de la conversación.</b>
-      .bgr_15.h-100.p-5
+      .bgr_15.h-100.p-3.p-lg-5
         img.img450(src='@/assets/curso/tema2/t2-62.svg' alt='AvatarTop')
-        .p-5
+        .p-3.p-lg-5
           h4 Cliente indeciso
           ul.lista-ul--color
             li 
@@ -544,9 +549,9 @@
             li 
               i.far.fa-check-square
               p Es importante dar espacio para que el cliente tome su propia decisión, dado que cuando esto no sucede el cliente terminará comprando y devolviendo el producto, lo que generará reprocesos para la empresa.
-      .bgr_15.h-100.p-5
+      .bgr_15.h-100.p-3.p-lg-5
         img.img450(src='@/assets/curso/tema2/t2-63.svg' alt='AvatarTop')
-        .p-5
+        .p-3.p-lg-5
           h4 Cliente grosero
           ul.lista-ul--color
             li 
@@ -555,9 +560,9 @@
             li 
               i.far.fa-check-square
               p Los argumentos son una buena forma de desarrollar la conversación, sin caer en acomodarse a las afirmaciones del cliente, dado que nunca se debe perder del radar que se está trabajando para una empresa, por tanto, no se puede ceder en pretensiones que no tienen alcance solo por el hecho de calmarlo o terminar su interacción de forma rápida.
-      .bgr_15.h-100.p-5
+      .bgr_15.h-100.p-3.p-lg-5
         img.img450(src='@/assets/curso/tema2/t2-64.svg' alt='AvatarTop')
-        .p-4
+        .p-3.p-lg-4
           h4 Cliente impulsivo
           ul.lista-ul--color
             li 
@@ -569,9 +574,9 @@
             li 
               i.far.fa-check-square
               p Tercero, la variable tiempo es decisoria, por lo que suelen ser impacientes cuando percibe que los procesos no están desarrollándose con la oportunidad requerida, por ello <b>en caso de tener inconvenientes, se debe informar y buscar alternativas que permitan resolver la situación.</b>
-      .bgr_15.h-100.p-5
+      .bgr_15.h-100.p-3.p-lg-5
         img.img450(src='@/assets/curso/tema2/t2-65.svg' alt='AvatarTop')
-        .p-4
+        .p-3.p-lg-4
           h4 Cliente negociador
           ul.lista-ul--color
             li 
@@ -586,9 +591,9 @@
             li 
               i.far.fa-check-square
               p <b>Mostrar los beneficios</b> es importante con este tipo de clientes, dado que siempre buscan conseguir un objetivo.
-      .bgr_15.h-100.p-5
+      .bgr_15.h-100.p-3.p-lg-5
         img.img450(src='@/assets/curso/tema2/t2-66.svg' alt='AvatarTop')
-        .p-5
+        .p-3.p-lg-5
           h4 Cliente silencioso
           ul.lista-ul--color
             li 
@@ -602,8 +607,8 @@
               p En caso de que la interacción sea presencial, los <b>gestos no verbales</b> (expresiones del rostro, de los pies o de las manos) pueden dar luces sobre la actitud de este cliente.
 
     .bg_grad-07
-      .row.justify-center
-        .col-12.col-lg-3
+      .row.justify-center.p-3.p-lg-0
+        .col-12.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema2/t2-67.svg' alt='AvatarTop')
         .col-12.col-lg-6.align-items-center

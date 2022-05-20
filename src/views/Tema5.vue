@@ -14,8 +14,8 @@
         .col-12.col-md-10
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/87fQFljT7OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+ 
     p.mb-3 La Seguridad y Salud en el trabajo (SST), según la ley 1562 de 2012, se define como la disciplina que se ocupa de la prevención de lesiones y enfermedades generadas por las circunstancias de trabajo, y de la protección y promoción de la salud de los trabajadores.
     p.mb-5 Su objetivo es mejorar las condiciones y el entorno de medio ambiente laboral, así como la salud laboral, que implica la promoción y el mantenimiento del bienestar físico, mental y social de los trabajadores en todas las ocupaciones.
 

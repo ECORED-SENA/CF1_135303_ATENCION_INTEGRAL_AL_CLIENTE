@@ -270,7 +270,7 @@ export default {
       texto:
         'Organización Mundial de la Salud [OMS] y Banco Mundial [BM]. (2011). Informe Mundial de la Discapacidad. ',
       tipo: 'Informe',
-      descarga: 'LINK ROTO',
+      descarga: '/downloads/informe_discapacidad.pdf',
     },
     {
       texto: 'UNESCO. (2020). Liderar el ODS 4 - Educación 2030.',
@@ -365,20 +365,55 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
         nombre: 'Yuly Rey',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Carlos Andrés Díaz Pinto',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional - Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Erika Viviana Sandoval Rojas',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Carlos Andrés Díaz Pinto',
+        cargo: 'Desarrollo Front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },

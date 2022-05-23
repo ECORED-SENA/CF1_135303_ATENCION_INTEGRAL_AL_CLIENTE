@@ -320,7 +320,7 @@ export default {
       },
       {
         nombre: 'Diana Carolina Jaramillo Rojas',
-        cargo: 'Experta Temática',
+        cargo: 'Experta temática',
         centro: 'Centro de Comercio y Servicios Regional - Cauca',
       },
       {
@@ -331,12 +331,12 @@ export default {
       },
       {
         nombre: 'Jaime Alberto Pérez Posada',
-        cargo: 'Instructor, Especialista Técnico en Inclusión',
+        cargo: 'Instructor, especialista técnico en inclusión',
         centro: 'Centro de Comercio Regional - Antioquia',
       },
       {
         nombre: 'Gloria Amparo López Escudero',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro:
           'Centro de la Industria, la Empresa y Los Servicios - CIES Regional - Norte de Santander',
       },
@@ -348,7 +348,7 @@ export default {
       },
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
-        cargo: 'Asesor Metodológico',
+        cargo: 'Asesor metodológico',
         centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
       },
       {

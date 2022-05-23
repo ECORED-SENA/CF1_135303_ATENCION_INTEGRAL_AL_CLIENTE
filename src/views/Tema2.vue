@@ -171,7 +171,7 @@
               div.bgr_7.p-5
                 img.mb-3.img70(src='@/assets/curso/tema2/t2-23.svg' alt='AvatarTop')
                 h4 Clientes según su alcance
-                p El alcance se  define como la cercanía y nivel de relación que tiene la empresa con ellos. En este sentido, según su alcance, pueden ser: Internos o Externos.
+                p El alcance se  define como la cercanía y nivel de relación que tiene la empresa con ellos. En este sentido, según su alcance, pueden ser: internos o externos.
                 div
                   figure
                     img(src='@/assets/curso/tema2/t2-26.png', alt='Texto que describa la imagen')
@@ -184,7 +184,7 @@
               div.bgr_7.p-5
                 img.mb-3.img70(src='@/assets/curso/tema2/t2-23.svg' alt='AvatarTop')
                 h4 Clientes según su alcance
-                p El alcance se  define como la cercanía y nivel de relación que tiene la empresa con ellos. En este sentido, según su alcance, pueden ser: Internos o Externos.
+                p El alcance se  define como la cercanía y nivel de relación que tiene la empresa con ellos. En este sentido, según su alcance, pueden ser: internos o externos.
                 div
                   figure
                     img(src='@/assets/curso/tema2/t2-27.png', alt='Texto que describa la imagen')

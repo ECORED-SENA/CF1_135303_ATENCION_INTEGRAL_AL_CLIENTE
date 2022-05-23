@@ -323,9 +323,9 @@
             img(src='@/assets/curso/tema4/t4-33.svg', alt='Texto que describa la imagen')
         .col-12.col-lg-6.p-5.mt-0.mt-lg-5
           p.fuente30 ¿Cómo comercializar con el 
-            span.colr_4 triángulo de <em>marketing</em>  
-            | de servicios?
-          p Existen 3 tipos de <em>marketing</em>  que se dan dentro del triángulo de servicios:
+            span.colr_4 triángulo de <em>marketing</em> 
+            |&nbsp; de servicios?
+          p Existen 3 tipos de <em>marketing</em> que se dan dentro del triángulo de servicios:
     
     .row.mb-5
       .col-12.col-lg-2.mb-3.mb-lg-0

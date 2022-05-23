@@ -406,6 +406,12 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
+        nombre: 'Laura Ximena Hurtado Villalba ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
         nombre: 'Erika Viviana Sandoval Rojas',
         cargo: 'Validación Ilustración',
         centro:

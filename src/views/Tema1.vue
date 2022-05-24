@@ -13,7 +13,7 @@
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Tabla 1
       span Ejemplo dato - información
-    .row.justify-center.mb-5(data-aos="zoom-out")
+    .row.justify-center.mb-5(data-aos="fade-up")
       .col-12.col-lg-7
         .tabla-a.color-acento-contenido.mb-5 
           .tabla-b__header

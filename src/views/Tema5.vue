@@ -19,16 +19,16 @@
     p.mb-3 La Seguridad y Salud en el trabajo (SST), según la ley 1562 de 2012, se define como la disciplina que se ocupa de la prevención de lesiones y enfermedades generadas por las circunstancias de trabajo, y de la protección y promoción de la salud de los trabajadores.
     p.mb-5 Su objetivo es mejorar las condiciones y el entorno de medio ambiente laboral, así como la salud laboral, que implica la promoción y el mantenimiento del bienestar físico, mental y social de los trabajadores en todas las ocupaciones.
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 8
       span <em>Definición de Sistema de Gestión de la Seguridad y Salud en el Trabajo</em>
 
     .bg_grad-14.mb-5
       .row.justify-center.p-3.p-lg-0
-        .col-12.col-lg-4
+        .col-12.col-lg-4(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema5/t5-1.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-6.m_t
+        .col-12.col-lg-6.m_t(data-aos="fade-left")
           h3 Sistema de Gestión de la Seguridad y Salud en el Trabajo SG-SST 
           p.mb-0 Este Sistema consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua y que incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y salud en el trabajo.
     .row.mb-5  
@@ -36,7 +36,7 @@
         div.bgr_6.my-3.d-flex
           p.my-3.px-3  <b>Nota.</b>Ley 156 de 2012, Artículo 1.
 
-    .posit_18.color-primario.p-3.mb-5
+    .posit_18.color-primario.p-3.mb-5(data-aos="fade-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema4/t4-38.svg")
@@ -56,7 +56,7 @@
     
     p.mb-5 Los componentes de los factores de riesgos de trabajo son condiciones, propiedades o exposiciones que generen cualquier mal o afectación a la salud del trabajador. Se necesita detectar qué tipo de peligro (físicos, químicos, biológicos, ergonómicos, psicosociales o ambientales) se registra en las compañías, para que se evite la ocurrencia de accidentes, incidentes y enfermedades laborales. La resolución 2646 de 2008, busca mantener y conservar la salud física de los colaboradores, prevenir accidentes y situaciones que puedan poner en riesgo al trabajador.
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 9
       span <em>Factores de riesgo</em>
     
@@ -82,7 +82,7 @@
               p.mb-0 Este tipo de riesgo ofrece cifras relativamente altas, ocupando el 60% de las enfermedades en los puestos de trabajo y el 25% se deben a la manipulación de golpes. Al levantar pesos, la espalda debe estar completamente recta y las rodillas dobladas. Si se trata de un trabajo físico, hay que estirar los músculos y las articulaciones antes de empezar para evitar futuras lesiones. Hay que utilizar métodos seguros en todo momento.
           .row(titulo="Riesgos psicosociales")
             .col-md-12.px-5
-              p Este riesgo depende de la gestión organizativa, de las características del trabajo y de las características del grupo social, es realmente importante identificar, evaluar e intervenir en todos los aspectos socio-demográficos del empleado: recursos humanos: estilo de dirección, pagos, contratación), aspectos extra-laborales: amigos, tiempo libre, familia, individuales: personalidad, absentismo, edad, antecedentes, etc, algunas manifestaciones pueden ser: estrés, fatiga, monotonía, ,para prevenirlas es recomendable un compromiso por parte de la dirección para la priorización de los hallazgos. La estabilidad y un buen ambiente nos ayudará a disminuir estos riesgos.
+              p Este riesgo depende de la gestión organizativa, de las características del trabajo y de las características del grupo social, es realmente importante identificar, evaluar e intervenir en todos los aspectos socio-demográficos del empleado: recursos humanos: estilo de dirección, pagos, contratación, aspectos extra-laborales: amigos, tiempo libre, familia, individuales: personalidad, absentismo, edad, antecedentes, etc, algunas manifestaciones pueden ser: estrés, fatiga, monotonía, para prevenirlas es recomendable un compromiso por parte de la dirección para la priorización de los hallazgos. La estabilidad y un buen ambiente nos ayudará a disminuir estos riesgos.
           .row(titulo="Condiciones de seguridad")
             .col-md-12.px-5
               p La clasificación para este tipo de riesgo con mecánica como elementos o parte de máquinas, herramientas, equipos, piezas y materiales proyectados; eléctrica de alta o baja presión o estática; locativa como superficies de trabajo, condiciones de orden y limpieza y caída de objetos. Estos tipos de riesgos se reflejan en trabajos en altura, superficies inseguras, mal uso de herramientas, equipos defectuosos. Debemos asegurarnos siempre de revisar la maquinaria en la que trabajamos para evitar posibles incidentes.
@@ -96,10 +96,10 @@
       h2 5.2 Manejo y control SST
     
     .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure.justify-center
           img(src='@/assets/curso/tema5/t5-3.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-8
+      .col-12.col-lg-8(data-aos="fade-left")
         p Con el objetivo de conceptualizar y entablar los controles en seguridad y salud en el trabajo se debe tener en cuenta que la instalación o lugar de trabajo, debe estar con el Equipo de Protección Personal (EPP) como primera barrera de estabilidad entre el trabajador y el peligro (lo cual es menos efectivo), es indispensable jerarquizarlos para minimizar de forma más positiva la posibilidad de accidentes y patologías de trabajo (riesgos de trabajo). 
         p El objetivo general en el manejo y control de la identificación de los riesgos y la valoración de los peligros en Estabilidad y Salud en el Trabajo (SST), consiste en comprender los riesgos que tienen la posibilidad de producir en el desarrollo de las ocupaciones, con el objeto de que la organización logre establecer los controles necesarios, al punto de asegurar que cualquier peligro sea aceptable.
         p.mb-0 El trabajo preliminar imprescindible para la evaluación de peligros es decidir los procesos y la lista de ocupaciones o situaciones de la operación para juntar la información elemental, incluyendo tareas rutinarias y no rutinarias, ejemplificando de mantenimiento.
@@ -109,7 +109,7 @@
     p.mb-3 Todos los trabajadores tienen que detectar y comunicar a su empleador los riesgos asociados a su actividad gremial. Los empleadores poseen el deber legal de evaluar los peligros derivados de estas ocupaciones laborales.
     p.mb-5 La matriz de identificación de riesgos y evaluación de peligros la establece el empresario de acuerdo con las ocupaciones hechas y sus características.
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 10
       span <em>Tabla tipo matriz de riesgo</em>
     
@@ -123,7 +123,7 @@
     
     p.mb-5 En el tamaño en que la identificación de riesgos y evaluación de peligros contenga información válida y priorizada posibilita consumar correctamente destinados a prevenir los accidentes de trabajo y enfermedad general, convirtiéndose en una herramienta natural para conceptualizar la Administración de Estabilidad y Salud y por consiguiente el proyecto y cronograma de ocupaciones del SG-SST.
 
-    .posit_18.color-primario.p-3.mb-5
+    .posit_18.color-primario.p-3.mb-5(data-aos="fade-down")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema4/t4-38.svg")

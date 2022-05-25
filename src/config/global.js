@@ -42,7 +42,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Tipología y Manejo del cliente',
+            titulo: 'Tipología y manejo del cliente',
             hash: 't_2_2',
           },
         ],
@@ -165,7 +165,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Carlzon, J. (1 de 10 de 1996). <em>El Momento de la Verdad</em>',
+        'Carlzon, J. (1 de 10 de 1996). <em>El Momento de la Verdad</em>.',
       link: 'https://pocketbook4you.com/es/read/moments-of-truth',
     },
     {
@@ -176,7 +176,7 @@ export default {
     },
     {
       referencia:
-        'López, MJ. (marzo de 2021). <em>Inclusión laboral: Los 7 mitos más comunes sobre los trabajadores con discapacidad.</em>',
+        'López, MJ. (marzo de 2021). <em>Inclusión laboral: Los 7 mitos más comunes sobre los trabajadores con discapacidad.</em> ',
       link:
         'https://www.fundacioncontrabajo.cl/blog/cultura-inclusiva/7-mitos-inclusion-laboral/',
     },

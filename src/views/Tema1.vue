@@ -32,7 +32,7 @@
                 td.p-4 El día de hoy se vendieron 16 pares de tenis.
               tr
                 th 12
-                td.p-4 El fin de semana el punto de venta esta  rá abierto durante 12 horas.
+                td.p-4 El fin de semana el punto de venta estará abierto durante 12 horas.
               tr
                 th Servicial
                 td.p-4 María Valentina es la agente de atención al cliente más servicial.
@@ -46,7 +46,7 @@
             p En el contexto de la atención al cliente la información es vital, dado que es lo que motiva la interacción y el interés entre:
             br
             br
-            span <b>Emisor</b> - quien emite el mensaje comunicacional, generalmente, es el Agente de Servicio
+            span <b>Emisor</b> - quien emite el mensaje comunicacional, generalmente, es el Agente de Servicio.
             br
             br
             span <b>Receptor</b> (quien recibe la información, usualmente el cliente).
@@ -55,14 +55,14 @@
 
     p.mb-5 La información a nivel empresarial debe contar con las siguientes características:
 
-    figure.mb-5
+    figure.mb-5(data-aos="fade-up")
       img(src='@/assets/curso/tema1/t1-2.svg', alt='Texto que describa la imagen')
 
-    h3.mb-3 Tipos de información
+    h3.mb-3(data-aos="fade-right") Tipos de información
 
-    p.mb-5 Existen diferentes tipos de información, los cuales se pueden clasificar desde diferentes perspectivas, según su: fuente, el objeto comunicacional, criterios de programación en sistemas, entre otros; sin embargo, la clasificación más referenciada a nivel empresarial es la asociada con la relación que existe entre quien la produce/ pública (emisor) y los potenciales usuarios requirentes (receptores), esta clasificación se muestra a continuación:
+    p.mb-5 Existen diferentes tipos de información, los cuales se pueden clasificar desde diferentes perspectivas, según su: fuente, el objeto comunicacional, criterios de programación en sistemas, entre otros; sin embargo, la clasificación más referenciada a nivel empresarial es la asociada con la relación que existe entre quien la produce/pública (emisor) y los potenciales usuarios requirentes (receptores), esta clasificación se muestra a continuación:
 
-    TabsA.color-acento-botones.mb-5
+    TabsA.color-acento-botones.mb-5(data-aos="fade-down")
       .tarjeta.color-acento-botones--borde.p-4(titulo="Información confidencial")
         .row.align-items-center.p-4
           .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
@@ -105,10 +105,10 @@
             p.mb-0 Es aquella que es utilizada por un grupo específico de personas, usualmente pertenecientes a una misma empresa. Se caracteriza porque suele ser de interés solo por parte de un determinado conjunto de personas.
     
     .row
-      .col-12.col-lg-6.bgr.p-4.p-lg-5
+      .col-12.col-lg-6.bgr.p-4.p-lg-5(data-aos="fade-right")
         p La mala aplicación de los tipos de información puede llevar a las empresas a la desinformación a nivel digital; conocida como <em>fake news</em> (noticias falsas), son un riesgo latente para las organizaciones que generan y consumen información de forma constante.
         p Muchas empresas implementan <b>políticas de buenas prácticas de sistemas de gestión</b>. Incluso, procesos de gestión documental para que la información que se origina en la empresa sea producida, usada y custodiada (guardada) bajo parámetros de calidad y confiabilidad.
-      .col-12.col-lg-6.bgr_1
+      .col-12.col-lg-6.bgr_1(data-aos="fade-left")
         figure
           img.d-flex.d-lg-none(src='@/assets/curso/tema1/t1-8.png', alt='Texto que describa la imagen')
      

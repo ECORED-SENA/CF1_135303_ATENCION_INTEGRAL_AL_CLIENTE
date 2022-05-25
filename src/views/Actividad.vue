@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Tipos de cliente para contextos reales y posibles
-        p.mb-4 Asimilar la tipología de cliente según su comportamiento, a través de la identificación del contextos de aparición en situaciones potenciales, para asignar el perfil tipológico adecuado.
+        p.mb-4 Asimilar la tipología del cliente según su comportamiento, a través de la identificación de contextos de aparición en situaciones potenciales, para asignar el perfil tipológico adecuado.
         .tarjeta.bgr_22.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

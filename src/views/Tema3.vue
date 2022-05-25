@@ -8,14 +8,14 @@
       h1 Inclusión 
     
     .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure.justify-center
           img(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-8
+      .col-12.col-lg-8(data-aos="fade-left")
         p La inclusión es un término mucho más amplio de lo que se piensa, es un concepto que si bien tuvo sus inicios en la perspectiva social ahora permea también el contexto empresarial. Inclusión significa la capacidad de poder derribar barreras, de que todos tengan igualdad de derechos, dar accesibilidad y no ser excluyentes, en últimas la inclusión es un asunto de todos. Lastimosamente, a veces se ve permeada negativamente por diversas barreras, ya que los prejuicios sociales hacen que se jerarquicen las relaciones entre las personas de acuerdo con roles y estereotipos.
         p Para mayor entendimiento, en la siguiente imagen, se muestran los tipos de inclusión que suelen abordarse con mayor frecuencia en los estudios sociales y económicos.
     
-    TabsB.color-acento-contenido
+    TabsB.color-acento-contenido(data-aos="zoom-in")
       .py-4.py-md-5(titulo="Inclusión familiar" :icono="require('@/assets/curso/tema3/t3-2.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -65,20 +65,20 @@
     p.mb-5 Según la Ley Colombiana 762 de 2002, que aprueba la Convención Interamericana para la Eliminación de todas las Formas de Discriminación contra las Personas con Discapacidad, la discapacidad es entendida como:
 
     .row.mb-5
-      .col-12.col-lg-6.p-4.bg_grad-08
+      .col-12.col-lg-6.p-4.bg_grad-08(data-aos="fade-right")
         img.img30.tranform_2(src='@/assets/componentes/icon-bloque-texto-c.svg', alt='Texto que describa la imagen')
         p.mb-0.fuente18 Una deficiencia física, mental o sensorial, ya sea de naturaleza permanente o temporal, que limita la capacidad de ejercer una o más actividades esenciales de la vida diaria, que puede ser causada o agravada por el entorno económico y social
           img.img30.posit_10(src='@/assets/componentes/icon-bloque-texto-c.svg', alt='Texto que describa la imagen')
         p.fuente13 (CIPETFDPD, 2002, p. 2)
-      .col-12.col-lg-6.p-4
+      .col-12.col-lg-6.p-4(data-aos="fade-left")
         p Esto quiere decir que, en línea con lo visto previamente, de alguna manera se podría afirmar que la inclusión es el concepto general y la discapacidad es una especificación técnica y bastante importante que surge dentro de la inclusión.
         p La discapacidad es un tema tan relevante dentro de la inclusión, que vale la pena mirarlo con más detalle. En el informe Mundial de la Discapacidad de la OMS y el Banco Mundial, se mencionan algunas cifras que ponen de manifiesto la importancia de la discapacidad, a continuación, se mencionan como contexto algunas consideraciones:
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 2
       span <em>Consideraciones de discapacidad a nivel mundial</em>
     
-    .row.mb-3.mb-lg-5
+    .row.mb-3.mb-lg-5(data-aos="zoom-in")
       .col-12.col-lg-4.mb-3.mb-lg-0
         .tranform_3.h-100.p-4
           figure.justify-center.mb-5  
@@ -88,7 +88,7 @@
         .tranform_3.h-100.p-4
           figure.justify-center.mb-5  
             img.img70(src='@/assets/curso/tema3/t3-13.svg' alt='AvatarTop')
-          p.p-3.text-center En promedio, las personas con discapacidad y familias con miembros con discapacida tienen mayores tasas de privaciones.
+          p.p-3.text-center En promedio, las personas con discapacidad y familias con miembros con discapacidad tienen mayores tasas de privaciones.
       .col-12.col-lg-4
         .tranform_3.h-100.p-4
           figure.justify-center.mb-3  
@@ -121,7 +121,7 @@
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
               h4.mb-0.colr_2 Leer más
-            p Los empresarios en ocasiones consideran que se deben realizar altas inversiones para adaptar la empresa a personas con discapacidad: este punto dejó de perder vigencia por dos razones: i. esquemas como el teletrabajo, la alternancia, facilitan que ciertas tareas puedan ser desempeñadas por las personas desde sus lugares de residencia y ii. a nivel general, hoy en día las personas con discapacidad cuentan con sus propios recursos para desplazarse o movilizarse, lo que minimiza el impacto en términos de adaptación de sus puestos de trabajo.
+            p Los empresarios en ocasiones consideran que se deben realizar altas inversiones para adaptar la empresa a personas con discapacidad: este punto dejó de perder vigencia por dos razones: 1. esquemas como el teletrabajo, la alternancia, facilitan que ciertas tareas puedan ser desempeñadas por las personas desde sus lugares de residencia y 2. a nivel general, hoy en día las personas con discapacidad cuentan con sus propios recursos para desplazarse o movilizarse, lo que minimiza el impacto en términos de adaptación de sus puestos de trabajo.
       .col-lg-4.mb-3
         .tarjetas-up
           img(src='@/assets/curso/tema3/t3-17.png' alt='AvatarTop' style='width:400px')
@@ -135,14 +135,14 @@
 
     p.mb-5 Es relevante entender que existen <b>diferentes tipologías de discapacidad.</b> A continuación, se detallan los tipos de discapacidad que más participación tienen dentro de la población
 
-    SlyderB.mb-5(:datos="datosSlyder")
+    SlyderB.mb-5(:datos="datosSlyder")(data-aos="zoom-out")
 
     .bg_grad-09
       .row.justify-center
-        .col-12.col-lg-4
+        .col-12.col-lg-4(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema3/t3-22.svg' alt='AvatarTop')
-        .col-12.col-lg-6.align-items-center
+        .col-12.col-lg-6.align-items-center(data-aos="fade-left")
           div.p-5
             h3 Protocolos de atención a personas con discapacidad
             p Algunas consideraciones para tener en cuenta en el momento de la atención al cliente, con personas con algún tipo de discapacidad.
@@ -159,7 +159,7 @@
 
     h4.mb-5 A nivel Internacional, podemos ver los siguientes hitos:
 
-    LineaTiempoE.color-acento-contenido.mb-5
+    LineaTiempoE.color-acento-contenido.mb-5(data-aos="fade-left")
       .row(titulo="1948")
         .col-lg-2.mb-3.mb-lg-0
           figure
@@ -179,8 +179,9 @@
           figure
             img.img200(src='@/assets/curso/tema3/t3-25.svg', alt='Texto que describa la imagen')
         .col-lg-10.mb-4.mb-lg-0
-          h4 Convención de los Derechos Humanos De 2006 de la ONU
-          p En esta carta firmada en 1948, plantea como un ideal que los seres humanos deben ser libres, gozar de libertades civiles y contar con la implementación de políticas que permitan que las personas no estén en condiciones de pobreza extrema. Si bien no es una ley o un documento obligatorio dado que cuando se promulgó no existía tanta consciencia sobre el tema, sirve actualmente como base para la creación de los Convenios Internacionales de la ONU y son la plataforma para elaborar códigos de inclusión o gobierno corporativo por parte de las empresas respecto al tema de la inclusión.
+          h4 Convención sobre los Derechos de las Personas con Discapacidad 
+          p El propósito de la presente Convención es promover, proteger y asegurar el goce pleno y en condiciones de igualdad de todos los derechos humanos y libertades fundamentales por todas las personas con discapacidad, y promover el respeto de su dignidad inherente. 
+          p Las personas con discapacidad incluyen a aquellas que tengan deficiencias físicas, mentales, intelectuales o sensoriales a largo plazo que, al interactuar con diversas barreras, puedan impedir su participación plena y efectiva en la sociedad, en igualdad de condiciones con las demás.
       .row(titulo="2015")
         .col-lg-2.mb-3.mb-lg-0
           figure
@@ -191,7 +192,7 @@
     
     h4.mb-5 A nivel de nacional, en Colombia, también encontramos importantes sucesos que garantizan los derechos de personas con diversidad de condiciones:
 
-    LineaTiempoD.color-secundario.mb-5
+    LineaTiempoD.color-secundario.mb-5(data-aos="fade-right")
       .row(numero="1991" titulo="Constitución Política de Colombia")
         .col-md-3.mb-3.mb-lg-0
           figure
@@ -233,7 +234,7 @@
           figure
             img(src='@/assets/curso/tema3/t3-32.jpg', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0
-          p.mb-0.text-small Plantea estrategias para que Colombia avance en temas de Inclusión Social y Discapacidad con el fin de fomentar la igualdad en las oportunidades y la calidad de vida de la población con discapacidad. Las perspectivas que aborda este Conpes son: la transformación de lo público implementando el implementando el Observatorio Nacional de Discapacidad – OND e incluyendo a esta población en la información de estudios económicos y sociales con carácter nacional.
+          p.mb-0.text-small Plantea estrategias para que Colombia avance en temas de Inclusión Social y Discapacidad con el fin de fomentar la igualdad en las oportunidades y la calidad de vida de la población con discapacidad. Las perspectivas que aborda este Conpes son: la transformación de lo público implementando el Observatorio Nacional de Discapacidad – OND e incluyendo a esta población en la información de estudios económicos y sociales con carácter nacional.
       .row(numero="2013" titulo="Norma Técnica Colombiana (NTC) 6047 de 2013")
         .col-md-3.mb-3.mb-lg-0
           figure

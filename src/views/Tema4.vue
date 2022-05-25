@@ -8,17 +8,17 @@
       h1 Servicio al cliente
 
     .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure.justify-center
           img(src='@/assets/curso/tema4/t4-1.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-8
-        p Lograr una buena comunicación con el cliente es construir una buena relación con él, dicha comunicación debe ser fluida, pero ante todo muy clara y asertiva, se debe concebir que principalmente esta relación es humana: entre dos personas que tienen unas expectativas que se deben escuchar y respetar, lograr esto es generar esto redunda en una buena prestación de servicio al cliente.
-        p Actualmente, la estrategia de servicio demanda especial atención en las organizaciones, la competencia permite que los clientes exigen cada vez mayor y mejor atención, en disponer de un producto o un servicio para comercializar por sí solo no es garantía de éxito o de participación en el mercado, por ello cuando los clientes manifiestan que un producto es de su agrado, la empresa debe valorar el proceso de servicio y atención que utilizo para con este cliente, fortalecerlo, aplicarlo con los demás clientes y lograr brindar la misma experiencia positiva con clientes futuros, esto se enmarca como el contexto de relación entre las partes, permite fidelizar clientes.
+      .col-12.col-lg-8(data-aos="fade-left")
+        p Lograr una buena comunicación con el cliente es construir una buena relación con él, dicha comunicación debe ser fluida, pero ante todo muy clara y asertiva, se debe concebir que principalmente esta relación es humana: entre dos personas que tienen unas expectativas que se deben escuchar y respetar, lograr esto redunda en una buena prestación del servicio al cliente.
+        p Actualmente, la estrategia de servicio demanda especial atención en las organizaciones, la competencia permite que los clientes exigen cada vez mayor y mejor atención, en disponer de un producto o un servicio para comercializar por sí solo no es garantía de éxito o de participación en el mercado, por ello cuando los clientes manifiestan que un producto es de su agrado, la empresa debe valorar el proceso de servicio y atención que utilizó para con este cliente, fortalecerlo, aplicarlo con los demás clientes y lograr brindar la misma experiencia positiva con clientes futuros, esto se enmarca como el contexto de relación entre las partes, permite fidelizar clientes.
     
     p.mb-5 Para prestar un adecuado proceso de servicio en atención al cliente, las empresas deben trabajar en:
 
     .row.mb-5
-      .col-12.col-lg-6.mb-3.mb-lg-0
+      .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="fade-left")
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta.colr_3
@@ -48,11 +48,11 @@
             .lista-ol--cuadro__vineta.colr_3
               span 7
             | Estructurar estrategias que generen compromiso con los colaboradores (clientes internos) con la prestación de servicios de calidad y oportunidad.
-      .col-12.col-lg-6
+      .col-12.col-lg-6(data-aos="fade-right")
         figure.justify-center
           img(src='@/assets/curso/tema4/t4-2.png', alt='Texto que describa la imagen')
 
-    p.mb-5 El servicio al cliente es la interacción entre el comprador de un producto y la empresa que lo vende. Un buen servicio de atención al cliente es fundamental para el éxito de la empresa, ya que garantiza la fidelidad a la marca de un cliente a otro. Las innovaciones recientes se han centrado en la automatización de los sistemas de atención al cliente, pero el elemento humano es, en algunos casos, indispensable. La política de inclusión en el servicio al cliente crea un ambiente diverso ofreciendo mayores oportunidades a sus colaboradores y genera oportunidades de mejora la vida laboral.
+    p.mb-5 El servicio al cliente es la interacción entre el comprador de un producto y la empresa que lo vende. Un buen servicio de atención al cliente es fundamental para el éxito de la empresa, ya que garantiza la fidelidad a la marca de un cliente a otro. Las innovaciones recientes se han centrado en la automatización de los sistemas de atención al cliente, pero el elemento humano es, en algunos casos, indispensable. La política de inclusión en el servicio al cliente crea un ambiente diverso ofreciendo mayores oportunidades a sus colaboradores y genera oportunidades de mejorar la vida laboral.
 
     separador
 
@@ -60,10 +60,10 @@
       h2 4.1 Prestación del servicio al cliente
     
     .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure.justify-center
           img(src='@/assets/curso/tema4/t4-3.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-8
+      .col-12.col-lg-8(data-aos="fade-left")
         p El servicio al cliente está relacionado con todos y cada uno de los procesos implementados durante la prestación de un servicio o la comercialización de un producto, se denomina también servicio de atención al cliente, es un instrumento del <em>marketing</em> que se encarga de generar contacto con los clientes, implementando el uso de diferentes canales que permiten generar relación con el cliente antes, durante y después de la compra o la prestación del servicio. 
         p El servicio al cliente se enmarca como la estrategia que implementan las empresas en busca de la satisfacción del cliente, se diferencia con atención al cliente ya que esta es la acción que se aplica en el día a día de la estrategia de servicio al cliente y en esta acción los colaboradores son quienes juegan un rol de gran importancia.
 
@@ -160,6 +160,7 @@
     p.mb-5 Un protocolo de servicio al cliente contiene información como:
 
     figure.mb-5.position-relative
+      .indicador--click.manito2(v-if="mostrarIndicador")
       img(src='@/assets/curso/tema4/t4-25.svg' alt='AvatarTop')
       img.posit_14(src='@/assets/curso/tema4/t4-22.svg' alt='AvatarTop')
       img.posit_15(src='@/assets/curso/tema4/t4-23.svg' alt='AvatarTop')
@@ -185,7 +186,7 @@
     p.mb-3 Un protocolo de servicio al cliente para llamada telefónica contiene orientaciones en aspectos como:
 
     .row.mb-5.bgr_21.p-5
-      .col-12.col-lg-6
+      .col-12.col-lg-6(data-aos="fade-right")
         ul.lista-ul--color
           li 
             i.fas.fa-check
@@ -208,7 +209,7 @@
           li 
             i.fas.fa-check
             p.mb-0 Informar claramente al cliente por que se va a dejar en espera, es decir el motivo de la espera.
-      .col-12.col-lg-6
+      .col-12.col-lg-6(data-aos="fade-left")
         ul.lista-ul--color
           li 
             i.fas.fa-check
@@ -229,11 +230,11 @@
     p.mb-5 En ocasiones se encuentra que, pese al esfuerzo realizado por los clientes internos de la organización, el cliente externo manifiesta inconformidad y presenta una queja, por ello siempre se debe escuchar con amabilidad, respeto y cortesía, incluso el cliente interno debe conservar la serenidad y profesionalismo pese a que en ocasiones el cliente externo se manifieste incomprendido e incómodo. 
 
     .bg_grad-07
-      .row.justify-center
+      .row.justify-center(data-aos="fade-right")
         .col-12.col-lg-3
           figure
             img(src='@/assets/curso/tema2/t2-67.svg' alt='AvatarTop')
-        .col-12.col-lg-9.align-items-center
+        .col-12.col-lg-9.align-items-center(data-aos="fade-left")
           div.mt-4.p-5
             h3.colr_1 importante
             p.colr_1 En ningún momento se debe entrar en discusiones, se debe recibir de forma amable y atenta cualquier reclamación, esta debe ser valorada como oportunidad de mejora del servicio, así mismo debe ser resuelta con prontitud y se debe escalar al área de la empresa correspondiente para que se actúe sobre el problema o la situación que genera la reclamación y de esta manera minimizar futuros requerimientos por situaciones iguales o similares.
@@ -244,14 +245,14 @@
       h2 4.2 Triángulo del servicio
 
     .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure.justify-center
           img(src='@/assets/curso/tema4/t4-30.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-8
+      .col-12.col-lg-8(data-aos="fade-left")
         p Como sabemos, las relaciones son muy importantes en el sector de los servicios. El triángulo de los servicios describe todas las relaciones que existen entre la empresa, los empleados y los clientes. Además, también destaca la importancia de los sistemas en un sector de servicios y cómo estos sistemas ayudan a conseguir la satisfacción del cliente.
         p El triángulo del servicio puede utilizarse también para comercializar el servicio entre los consumidores. Depende completamente de la interacción que se produce entre el cliente y el proveedor de servicios. Veremos cada una de estas interacciones en detalle y también leeremos cómo comercializar con el cliente en función de la interacción.
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 5
       span <em>Triángulo del servicio</em>
     
@@ -318,10 +319,10 @@
 
     .bg_grad-11.mb-5
       .row.justify-content-center
-        .col-12.col-lg-3
+        .col-12.col-lg-3(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema4/t4-33.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-6.p-5.mt-0.mt-lg-5
+        .col-12.col-lg-6.p-5.mt-0.mt-lg-5(data-aos="fade-left")
           p.fuente30 ¿Cómo comercializar con el 
             span.colr_4 triángulo de <em>marketing</em> 
             |&nbsp; de servicios?
@@ -390,10 +391,10 @@
       h2 4.4 Momentos de verdad
     
     .row.mb-5
-      .col-12.col-lg-8.mt-lg-5
+      .col-12.col-lg-8.mt-lg-5(data-aos="fade-right")
         p El autor Jan Carlzon en el libro “Momento de la verdad” refiere una forma distinta de gestionar organizaciones, Jan Carlzon invierte la pirámide jerárquica que tradicionalmente establecen las organizaciones y en la cual los directivos y ejecutivos ocupan la cima y quienes tenían contacto directo con los clientes ocupan la base piramidal. Debido a los cambios y crecimiento de los mercados y al incremento de la competencia es primordial que las organizaciones se concentren en el cliente y no en el producto, de esta manera pueden diseñar productos dirigidos a satisfacer las necesidades de los clientes, una empresa u organización orientada al cliente, genera mayores oportunidades para fidelizar al cliente y permite la generación de ingresos para la sostenibilidad y permanencia en el mercado. (Carlzon, 1996)
         p Los momentos de verdad en sí, no generan una valoración positiva o negativa, lo que genera esta valoración es el manejo que se le dé al acercamiento con el cliente, y que convierta dicho encuentro en una experiencia positiva, la organización debe anticiparse a la identificación y a generación de posibles momentos de verdad, y dar el manejo logrando experiencias positivas al cliente.
-      .col-12.col-lg-4
+      .col-12.col-lg-4(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-0
           h5 Figura 7
           span <em>Simulación de un cliente en un momento de verdad</em>
@@ -472,6 +473,7 @@
 export default {
   name: 'Tema4',
   data: () => ({
+    mostrarIndicador: true,
     datosSlyder: [
       {
         titulo: 'Saludo',

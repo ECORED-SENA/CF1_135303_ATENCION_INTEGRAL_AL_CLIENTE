@@ -84,7 +84,7 @@
         figure
           img(src='@/assets/curso/tema2/t2-11.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8.mt-3(data-aos="fade-left")
-        p Hay un interrogante que es frecuente cuando se están analizando a los clientes, el cual es: <b>¿las necesidades de los clientes ya están creadas o se deben crear?</b>, la respuesta es simple: las necesidades ya existen; por esto, las empresas crean o comercializan bienes o servicios, para satisfacer las necesidades de los clientes de la mejor posible.
+        p Hay un interrogante que es frecuente cuando se están analizando a los clientes, el cual es: <b>¿las necesidades de los clientes ya están creadas o se deben crear?</b>, la respuesta es simple: las necesidades ya existen; por esto, las empresas crean o comercializan bienes o servicios, para satisfacer las necesidades de los clientes de la mejor manera posible.
         p.mb-0 Para dar mayor estructura a la premisa anterior, hacia 1943 Abraham Maslow, en su libro: Teoría de la Motivación Humana, formuló uno de los aportes más relevantes para la historia asociado al comportamiento humano, la <b>pirámide de Maslow.</b> En ella se establece que todas las personas tienen diferentes niveles de necesidades y en la medida en que las más básicas se van cubriendo el ser humano propenderá por ir avanzando en la pirámide y alcanzar las siguientes. Para mayor entendimiento, se detalla a continuación la clasificación de las necesidades que se identifican en la pirámide de Maslow.
     
   
@@ -94,7 +94,8 @@
           .infografia-torta
             figure
               img.posit_4(src="@/assets/curso/tema2/t2-22.svg" alt="Adornos flotantes")
-              .infografia-torta__img(@mouseover="mostrarIndicador = false")
+              .indicador--click(v-if="mostrarIndicador").manito1
+              .infografia-torta__img
                 img.posit_5.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-13.svg")
                 img.posit_20.d-flex.d-lg-none(src="@/assets/curso/tema2/t2-13-1.svg")
                 img.posit_6.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-14.svg")
@@ -105,7 +106,7 @@
                 img.posit_23.d-flex.d-lg-none(src="@/assets/curso/tema2/t2-16-1.svg")
                 img.posit_9.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-17.svg")
                 img.posit_24.d-flex.d-lg-none(src="@/assets/curso/tema2/t2-17-1.svg")
-                .indicador--hover(v-if="mostrarIndicador" style=" top: 19% ")
+                
             
           
     separador
@@ -116,28 +117,28 @@
     p.mb-5 Existen numerosas clasificaciones de clientes:
 
     .row
-      .col-lg-3
+      .col-lg-3(data-aos="zoom-in")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/t2-18.svg' alt='AvatarTop')
           .tarjeta.bgr_5.alto
             .p-3.ml
               p.mb-0 Según su relación con la empresa.
-      .col-lg-3
+      .col-lg-3(data-aos="zoom-in")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/t2-19.svg' alt='AvatarTop')
           .tarjeta.bgr_5.alto
             .p-3.ml
               p.mb-0 Según su frecuencia de compra.
-      .col-lg-3
+      .col-lg-3(data-aos="zoom-in")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/t2-20.svg' alt='AvatarTop')
           .tarjeta.bgr_5.alto
             .p-3.ml
               p.mb-0 A partir del volumen de compra.
-      .col-lg-3
+      .col-lg-3(data-aos="zoom-in")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/t2-21.svg' alt='AvatarTop')
@@ -234,7 +235,7 @@
                       li 
                         .lista-ol--cuadro__vineta
                           span 1
-                        | Requieren del bien/ servicio que produce/ vende la empresa.
+                        | Requieren del bien/servicio que produce/vende la empresa.
                       li 
                         .lista-ol--cuadro__vineta
                           span 2
@@ -259,7 +260,7 @@
                   .bord
                     p.mb-0.fuente14 <b>En este caso, se podría inferir que:</b> la empresa Textiles La Doña Ltda. tiene 200 clientes actuales y 8 clientes potenciales (son 8 porque recordemos que para ser potencial no solo se debe necesitar el producto, sino también tener recursos para adquirirlo).
 
-    p.mb-5 Cabe mencionar, que varios estudios han concluido que para una empresa es más costo- eficiente, mantener sus clientes actuales que traer nuevos, debido al gran esfuerzo en términos de costo y tiempo que implica la adquisición de nuevos. Por ello, los clientes actuales también tienen su propia clasificación, con el fin de focalizar los esfuerzos de manera clara. Dicha clasificación se evidencia en el siguiente esquema.
+    p.mb-5 Cabe mencionar, que varios estudios han concluido que para una empresa es más costo-eficiente, mantener sus clientes actuales que traer nuevos, debido al gran esfuerzo en términos de costo y tiempo que implica la adquisición de nuevos. Por ello, los clientes actuales también tienen su propia clasificación, con el fin de focalizar los esfuerzos de manera clara. Dicha clasificación se evidencia en el siguiente esquema.
 
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Figura 1
@@ -297,7 +298,7 @@
             div 
               img.img70.mb-3(src='@/assets/curso/tema2/t2-44.svg', alt='Texto que describa la imagen')
               h4 Clientes inactivos
-              p Son aquellos que realizaron compras hace bastante tiempo y por tanto, ya no tienen relación comercial con la empresa, por lo que se infiere que están adquiriendo los productos con la competencia o que dejaron de utilizar el bien/ servicio. 
+              p Son aquellos que realizaron compras hace bastante tiempo y por tanto, ya no tienen relación comercial con la empresa, por lo que se infiere que están adquiriendo los productos con la competencia o que dejaron de utilizar el bien/servicio. 
           .col-md-7.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/tema2/t2-34.png', alt='Texto que describa la imagen')
@@ -465,7 +466,7 @@
         h4.text-center Cliente silencioso
         p.text-center El cliente silencioso es una persona tímida y generalmente analítica. Escucha con detenimiento, aunque no pregunta mucho, es difícil interpretar por parte del interlocutor porque no se sabe realmente qué está pensando y cuál es su postura frente a lo que se le está explicando. 
 
-    p.mb-3 En cuanto al manejo de los clientes, hay que entender que son seres humanos y su personalidad, emociones, preceptos e ideologías también se verán reflejadas en sus interacciones comerciales. En este orden de ideas, lo primero que un agente de atención al cliente debe realizar es identificar con qué tipo de cliente está tratando; Después de identificarlo se deben aplicar las pautas para el manejo de clientes.
+    p.mb-3 En cuanto al manejo de los clientes, hay que entender que son seres humanos y su personalidad, emociones, preceptos e ideologías también se verán reflejadas en sus interacciones comerciales. En este orden de ideas, lo primero que un agente de atención al cliente debe realizar es identificar con qué tipo de cliente está tratando; después de identificarlo se deben aplicar las pautas para el manejo de clientes.
     p.mb-5 En el siguiente esquema, se detallan algunas recomendaciones para cada una de las tipologías de cliente que se mencionó antes.
 
     h4.mb-5 Manejo del cliente, según su tipo
@@ -478,7 +479,7 @@
           ul.lista-ul--color
             li 
               i.far.fa-check-square
-              p El éxito con un cliente informado se da cuando se <b>demuestra conocimiento técnico</b> (en las características, beneficios y ventajas) del bien/ servicio sobre el cual se está teniendo la interacción), así como conocer en detalle <b>las condiciones comerciales</b> que aplican para la compra.
+              p El éxito con un cliente informado se da cuando se <b>demuestra conocimiento técnico</b> (en las características, beneficios y ventajas) del bien/servicio sobre el cual se está teniendo la interacción), así como conocer en detalle <b>las condiciones comerciales</b> que aplican para la compra.
             li 
               i.far.fa-check-square
               p Se debe mantener un <b>diálogo basado en los argumentos</b> y con la mayor cantidad de datos posible para no tener imprecisiones o cometer errores con el cliente.
@@ -514,7 +515,7 @@
           ul.lista-ul--color
             li 
               i.far.fa-check-square
-              p Lo opuesto a la desconfianza es la confianza, por tanto, eso es lo primero que se debe transmitir, por tanto, el Agente de Servicio, debe indicar nombres- apellidos, cargo y empresa a la que se está representando.
+              p Lo opuesto a la desconfianza es la confianza, por tanto, eso es lo primero que se debe transmitir, por tanto, el Agente de Servicio, debe indicar nombres-apellidos, cargo y empresa a la que se está representando.
             li 
               i.far.fa-check-square
               p Se debe siempre <b>mostrar interés por el cliente, hacerle preguntas</b> para que se sienta tenido en cuenta, no afirmar nada que no se puede evidenciar
@@ -608,10 +609,10 @@
 
     .bg_grad-07
       .row.justify-center.p-3.p-lg-0
-        .col-12.col-lg-3.mb-3.mb-lg-0
+        .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema2/t2-67.svg' alt='AvatarTop')
-        .col-12.col-lg-6.align-items-center
+        .col-12.col-lg-6.align-items-center(data-aos="fade-left")
           div
             h3.colr_1 importante
             p.colr_1 Tenga presente que, si bien cada cliente tiene un rasgo característico asociado a su tipología, en ciertas circunstancias pueden sacar a relucir varios perfiles, por lo que es vital el conocimiento y el empoderamiento que tenga el Agente de Servicio para desarrollar con éxito una interacción.
@@ -628,6 +629,7 @@
 export default {
   name: 'Tema2',
   data: () => ({
+    mostrarIndicador: true,
     datosSlyder: [
       {
         titulo: 'Cliente',
@@ -650,7 +652,7 @@ export default {
       {
         titulo: 'Prosumidor',
         texto:
-          'Es aquella persona o empresa que siendo el productor del bien o servicio también hace uso de él, es decir, produce y consume. Pueden existir en todos los niveles de empres y de cualquier servicio.',
+          'Es aquella persona o empresa que siendo el productor del bien o servicio también hace uso de él, es decir, produce y consume. Pueden existir en todos los niveles de empresa y de cualquier servicio.',
         imagen: require('@/assets/curso/tema2/t2-10.png'),
       },
     ],

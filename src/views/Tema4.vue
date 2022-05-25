@@ -112,7 +112,7 @@
       span <em>Diferenciación entre óptima y deficiente servicio al cliente</em>
 
     .row.mb-5
-      .col-12.col-lg-6
+      .col-12.col-lg-6.mb-3.mb-lg-0
         .bgr_18.p-5.h-100
           h4 Óptima atención al cliente
           figure.mb-3

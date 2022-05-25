@@ -20,7 +20,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Inclusión familiar
-            p Que cada miembro se sienta parte activa de la familia, compartir las obligaciones del hogar entre todos teniendo en cuenta la edad y estado físico- emocional, valorar lo que cada uno aporta y no crear prejuicios asociados al género, son las definiciones más cercanas a lo que representa la inclusión familiar. De hecho es interesante, porque algunos estudiosos del tema han planteado que la familia es el eje central de la inclusión.
+            p Que cada miembro se sienta parte activa de la familia, compartir las obligaciones del hogar entre todos teniendo en cuenta la edad y estado físico-emocional, valorar lo que cada uno aporta y no crear prejuicios asociados al género, son las definiciones más cercanas a lo que representa la inclusión familiar. De hecho es interesante, porque algunos estudiosos del tema han planteado que la familia es el eje central de la inclusión.
           .col-md-6
             figure
               img(src='@/assets/curso/tema3/t3-7.png', alt='Texto que describa la imagen')

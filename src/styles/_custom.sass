@@ -785,12 +785,19 @@
     height: 100px
 .manito1
   &::after
-    top: -188px !important  
-    left: 275px !important 
+    top: -188px  
+    left: 275px 
   &::before
     display: flex
-    top: -188px !important  
-    left: 275px !important 
+    top: -188px   
+    left: 275px 
+  @media screen and ( max-width: 420px )
+    &::after
+      top: -142px
+      left: -78px 
+    &::before
+      top: -142px
+      left: -78px 
 .manito2
   &::after
     top: -112px
@@ -799,4 +806,10 @@
     display: flex
     top: -112px
     left: -115px
-
+  @media screen and ( max-width: 420px )
+    &::after
+      top: -36px
+      left: -36px 
+    &::before
+      top: -36px
+      left: -36px 

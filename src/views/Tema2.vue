@@ -274,7 +274,7 @@
     p.mb-5 Veamos entonces, en la siguiente infografía, los detalles de esta nueva clasificación del cliente ya adquirido, es decir, que ha hecho una compra alguna vez en nuestra empresa.
     
     .tarjeta.p-lg-4(data-aos="zoom-out")
-      SlyderA(tipo="b")
+      SlyderA(tipo="b").sld.btiz
         .row.p-3.p-lg-5.bg_grad-03.h-100.mx-1
           .col-md-5
             div 
